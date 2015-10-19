@@ -57,7 +57,7 @@ public class Viterbi {
 						maxprob *= currentProb;
 						total += prob;
 						if (maxprob > argMax){
-							maxPath.addAll(prevPath);
+							maxPath= new ArrayList<>(prevPath);
 							maxPath.add(nextState);
 							argMax = maxprob;
 						}
@@ -98,7 +98,7 @@ public class Viterbi {
 		
 		CpGIsland cpg = Util.readGeneSequence(train, traincpg);
 		
-		String test = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\gene_data\\testing.txt";
+		String test = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\gene_data\\test.txt";
 		//String testcpg = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\gene_data\\cpg_island_training.txt";
 		
 		viterbi(test, cpg);
