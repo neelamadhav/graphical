@@ -29,7 +29,9 @@ public class Viterbi {
 		for (String initial : possibleHidden) {
 			Double initialprob = cpg.getInitialProbs(initial);
 			Double emission = cpg.getEmissionProbs(observed.get(0), initial.charAt(0));
-			Double prob = initialprob * emission;
+			Double prob = 0.0;
+			if (initialprob != 0.0 && emission != 0)
+				prob = Math.log10(initialprob) + Math.log10(emission);
 			vp[i] = new ViterbiPath(prob, Arrays.asList(initial), prob);
 			//System.out.println(vp[i].toString());
 			i++;
@@ -42,7 +44,7 @@ public class Viterbi {
 				int k =0;
 				for (String nextState : possibleHidden) {
 					//System.out.println("NextState: "+nextState);
-					double argMax = 0.0;
+					double argMax = Double.NEGATIVE_INFINITY;
 					double total = 0.0;
 					List<String> maxPath = new ArrayList<String>();
 					int j = 0;
@@ -53,9 +55,9 @@ public class Viterbi {
 						List<String> prevPath = vp[j].path;
 						Double maxprob = vp[j].maxprob;
 						Double currentProb = cpg.getEmissionProbs(observed.get(o), state.charAt(0)) * cpg.getTransitionProbs(state, nextState);
-						prob *= currentProb;
-						maxprob *= currentProb;
-						total += prob;
+						prob += Math.log10(currentProb);
+						maxprob += Math.log10(currentProb);
+						total += Math.pow(10, prob);
 						if (maxprob > argMax){
 							maxPath= new ArrayList<>(prevPath);
 							maxPath.add(nextState);
@@ -63,18 +65,18 @@ public class Viterbi {
 						}
 						j++;
 					}
-					tempvp[k] = new ViterbiPath(total, maxPath, argMax);
+					tempvp[k] = new ViterbiPath(Math.log10(total), maxPath, argMax);
 					k++;
 				}
 				vp = tempvp;
 			}
-			double argMax = 0.0;
+			double argMax = Double.NEGATIVE_INFINITY;
 			double total = 0.0;
 			List<String> maxPath = new ArrayList<String>();
 			for (int j = 0; j <possibleHidden.size(); j++) {
-				Double prob = vp[j].prob;
+				Double prob = Math.pow(10, vp[j].prob);
 				List<String> prevPath = vp[j].path;
-				Double maxprob = vp[j].maxprob;
+				Double maxprob = Math.pow(10, vp[j].maxprob);
 				total += prob;
 				if (maxprob > argMax){
 					maxPath = prevPath;
