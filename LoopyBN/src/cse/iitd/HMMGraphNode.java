@@ -1,38 +1,48 @@
 package cse.iitd;
 
-import java.util.List;
+import java.util.Map;
 
 public class HMMGraphNode {
-	private int id;
-	private String node;
+	private String id;
+	private String name;
+	private String value;
 	private String type;
-	private List<Integer> neighbors;
-	private List<Double> probs;
+	private Map<String, String> neighbors;
+	private Map<String, Double> ocr;
+
 	
 	HMMGraphNode(){};
 	
 	public HMMGraphNode(HMMGraphNode obj){
 		this.id = obj.id;
-		this.node = obj.node;
+		this.name = obj.name;
+		this.value = obj.value;
 		this.type = obj.type;
 		this.neighbors = obj.neighbors;
-		this.probs = obj.probs;
 	}
 	
 	public String toString() {
-		return id + " " + node  + " " +type + " " +neighbors.toString() + " " +probs.toString();
+		return id + " " + name  + " " +value + " " + type + " " +neighbors.toString();
 	}
-	public int getId() {
+	public Map<String, Double> getOcr() {
+		return ocr;
+	}
+
+	public void setOcr(Map<String, Double> ocr) {
+		this.ocr = ocr;
+	}
+
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
-	public String getNode() {
-		return node;
+	public String getName() {
+		return name;
 	}
-	public void setNode(String node) {
-		this.node = node;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public String getType() {
 		return type;
@@ -40,17 +50,19 @@ public class HMMGraphNode {
 	public void setType(String type) {
 		this.type = type;
 	}
-	public List<Integer> getNeighbors() {
+	public Map<String, String> getNeighbors() {
 		return neighbors;
 	}
-	public void setNeighbors(List<Integer> neighbors) {
+	public void setNeighbors(Map<String, String> neighbors) {
 		this.neighbors = neighbors;
 	}
-	public List<Double> getProbs() {
-		return probs;
+	public String getValue() {
+		return value;
 	}
-	public void setProbs(List<Double> probs) {
-		this.probs = probs;
+
+	public void setValue(String value) {
+		this.value = value;
 	}
+	
 
 }

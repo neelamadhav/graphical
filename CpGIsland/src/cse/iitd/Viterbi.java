@@ -100,7 +100,7 @@ public class Viterbi {
 		
 		CpGIsland cpg = Util.readGeneSequence(train, traincpg);
 		
-		String test = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\gene_data\\test.txt";
+		String test = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\gene_data\\testing.txt";
 		//String testcpg = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\gene_data\\cpg_island_training.txt";
 		
 		viterbi(test, cpg);

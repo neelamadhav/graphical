@@ -1,23 +1,22 @@
 package cse.iitd;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class DataTree {
-	private List<Character> chars1;
-	private List<Character> chars2;
+	
 	private List<Integer> image1;
 	private List<Integer> image2;
+	private List<Character> chars1;
+	private List<Character> chars2;
 	
-	private Map<Integer, HMMGraphNode> ocrGraph = new HashMap<Integer, HMMGraphNode>();
-	private Map<Integer, HMMGraphNode> transGraph = new HashMap<Integer, HMMGraphNode>();
-	private Map<Integer, HMMGraphNode> skipGraph = new HashMap<Integer, HMMGraphNode>();
-	private Map<Integer, HMMGraphNode> pairSkipGraph = new HashMap<Integer, HMMGraphNode>();
+	private Map<String, HMMGraphNode> ocrGraph = new HashMap<String, HMMGraphNode>();
+	private Map<String, HMMGraphNode> transGraph = new HashMap<String, HMMGraphNode>();
+	private Map<String, HMMGraphNode> skipGraph = new HashMap<String, HMMGraphNode>();
+	private Map<String, HMMGraphNode> pairSkipGraph = new HashMap<String, HMMGraphNode>();
 	
-	private static Map<String, Double> ocrMap = GraphicalModelUtil.getFactorsFromFile("C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset-2\\potentials\\ocr.dat");
-	private static Map<String, Double> transMap = GraphicalModelUtil.getFactorsFromFile("C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset-2\\potentials\\trans.dat");
+	
 	
 	public DataTree(List<Character> chars1, List<Character> chars2, List<Integer> image1, List<Integer> image2) {
 		super();
@@ -25,204 +24,189 @@ public class DataTree {
 		this.chars2 = chars2;
 		this.image1 = image1;
 		this.image2 = image2;
-		getHMMGraphs(chars1, chars2, image1, image2);
+		getHMMGraphs(image1, image2);
+	}
+	
+	
+	
+	public List<Character> getChars1() {
+		return chars1;
+	}
+
+
+
+	public void setChars1(List<Character> chars1) {
+		this.chars1 = chars1;
+	}
+
+
+
+	public List<Character> getChars2() {
+		return chars2;
+	}
+
+
+
+	public void setChars2(List<Character> chars2) {
+		this.chars2 = chars2;
+	}
+
+
+
+	public DataTree(List<Integer> image1, List<Integer> image2) {
+		super();
+		
+		this.image1 = image1;
+		this.image2 = image2;
+		getHMMGraphs(image1, image2);
 	}
 	
 	public String toString(){
-		return chars1.toString()+" "+image1.toString()+" "+chars2.toString()+" "+image2.toString()+" "+ocrGraph.toString()+" "+transGraph.toString()+" "+skipGraph.toString()+" "+pairSkipGraph.toString();
+		return image1.toString()+" "+image2.toString()+" "+ocrGraph.toString()+" "+transGraph.toString()+" "+skipGraph.toString()+" "+pairSkipGraph.toString();
 	}
 	
-	private void getHMMGraphs(List<Character> chars1, List<Character> chars2, List<Integer> image1,
-			List<Integer> image2) {
-		getOCRandTransFactors(chars1, image1);
-		getOCRandTransFactors(chars2, image2);
-		getSkipFactors(chars1, chars2, image1, image2);
-		getPairSkipFactors(chars1, chars2, image1, image2);
+	private void getHMMGraphs(List<Integer> image1, List<Integer> image2) {
+		getOCRandTransFactors( image1);
+		getOCRandTransFactors( image2);
+		
+		getSkipFactors(image1, image2);
+		getPairSkipFactors(image1, image2);
 	}
 	
-	private void getSkipFactors(List<Character> chars1, List<Character> chars2, List<Integer> image1,
-			List<Integer> image2) {
-		Map<Integer, List<Integer>> skipFactor1 = GraphicalModelUtil.getSkipFactor(image1, chars1);
-		addEdges(skipFactor1, skipGraph, 0);
-		addEdges(skipFactor1, pairSkipGraph, 0);
+	private void getSkipFactors(List<Integer> image1, List<Integer> image2) {
+		Map<String, List<String>> skipFactor1 = GraphicalModelUtil.getSkipFactor(image1);
+		addEdges(skipFactor1, skipGraph, 0, "skip");
+		addEdges(skipFactor1, pairSkipGraph, 0, "skip");
 		
-		Map<Integer, List<Integer>> skipFactor2 = GraphicalModelUtil.getSkipFactor(image2, chars2);
-		addEdges(skipFactor2, skipGraph, 2 * chars1.size());
-		addEdges(skipFactor2, pairSkipGraph, 2 * chars1.size());
+		Map<String, List<String>> skipFactor2 = GraphicalModelUtil.getSkipFactor(image2);
+		addEdges(skipFactor2, skipGraph, 2 * image1.size(), "skip");
+		addEdges(skipFactor2, pairSkipGraph, 2 * image1.size(), "skip");
 		
 	}
 	
-	private void addEdges(Map<Integer, List<Integer>> skipFactor, Map<Integer, HMMGraphNode> graph, int index){
+	private void addEdges(Map<String, List<String>> skipFactor, Map<String, HMMGraphNode> graph, int index, String type){
 		
-		for (Integer id: skipFactor.keySet()) {
-			for (Integer i: skipFactor.get(id)) {
-				List<Integer> neighbors = graph.get(id + index).getNeighbors();
-				neighbors.add(i+index);
-				graph.get(id + index).setNeighbors(neighbors);
+		for (String id: skipFactor.keySet()) {
+			String key = String.valueOf(Integer.parseInt(id) + index);
+			for (String i: skipFactor.get(id)) {
 				
-				List<Double> probs = graph.get(id + index).getProbs();
-				probs.add(5.0);
-				graph.get(id + index).setProbs(probs);				
-				
+				Map<String, String> neighbors = graph.get(key).getNeighbors();
+				neighbors.put(String.valueOf(Integer.parseInt(i)+index), type);
+				graph.get(key).setNeighbors(neighbors);
 			}
 		}
 	}
 	
-	private void getPairSkipFactors(List<Character> chars1, List<Character> chars2, List<Integer> image1,
-			List<Integer> image2) {
-		Map<Integer, List<Integer>> pairSkipFactor = GraphicalModelUtil.getPairSkipFactor(image1, chars1, image2, chars2);
-		addEdges(pairSkipFactor, pairSkipGraph, 0);
+	private void getPairSkipFactors(List<Integer> image1, List<Integer> image2) {
+		Map<String, List<String>> pairSkipFactor = GraphicalModelUtil.getPairSkipFactor(image1, image2);
+		addEdges(pairSkipFactor, pairSkipGraph, 0, "pair");
 	}
 
-	private void getOCRandTransFactors(List<Character> chars, List<Integer> image) {
+	private void getOCRandTransFactors(List<Integer> image) {
 		int index = ocrGraph.size();
-		for (int i = 0; i< chars.size(); i++){
+		String word = "1";
+		if (index != 0) 
+			word = "2";
+		
+		for (int i = 0; i< image.size(); i++){
+			String charId = String.valueOf(i + index);
+			String imageId = String.valueOf(image.size()+i + index);
+			
 			HMMGraphNode charNode = new HMMGraphNode();
 			HMMGraphNode imageNode = new HMMGraphNode();
-			charNode.setId(i + index);
-			imageNode.setId(chars.size()+i + index);
 			
-			charNode.setNode(String.valueOf(chars.get(i)));
-			imageNode.setNode(String.valueOf(image.get(i)));
+			charNode.setId(charId);
+			imageNode.setId(imageId);
+			
+			charNode.setName("Y"+word+charId);
+			imageNode.setName("X"+word+imageId);
+			
+			charNode.setValue(String.valueOf(image.get(i)));
+			imageNode.setValue(String.valueOf(image.get(i)));
 			
 			charNode.setType("char");
 			imageNode.setType("image");
 			
-			charNode.setNeighbors(getArray(chars.size()+i + index));
-			imageNode.setNeighbors(getArray(i + index));
-			
-			Double prob = GraphicalModelUtil.getOCRFactor(image.get(i), chars.get(i), ocrMap);
-			charNode.setProbs(getArray(prob));
-			imageNode.setProbs(getArray(prob));
-			
-			ocrGraph.put(i + index, charNode);
-			ocrGraph.put(chars.size()+i + index, imageNode);
+			Map<String, String> map = new HashMap<>();
+			map.put(imageId, "ocr");
+			charNode.setNeighbors(map);
+			map = new HashMap<>();
+			map.put(charId, "ocr");
+			imageNode.setNeighbors(map);
 			
 			
-			addTransFactors(charNode, imageNode, chars, image, index, i, transGraph);
-			addTransFactors(charNode, imageNode, chars, image, index, i, skipGraph);
-			addTransFactors(charNode, imageNode, chars, image, index, i, pairSkipGraph);
 			
+			ocrGraph.put(charId, charNode);
+			ocrGraph.put(imageId, imageNode);
+			
+			
+			addTransFactors(charNode, imageNode, image, index, i, transGraph);
+			addTransFactors(charNode, imageNode, image, index, i, pairSkipGraph);
+			addTransFactors(charNode, imageNode, image, index, i, skipGraph);
 		} 
 	}
 	
-	private void addTransFactors(HMMGraphNode charNode, HMMGraphNode imageNode, List<Character> chars, List<Integer> image, int index,
-			int i, Map<Integer, HMMGraphNode> graph) {
+	private void addTransFactors(HMMGraphNode charNode, HMMGraphNode imageNode, List<Integer> image, int index, int i, Map<String, HMMGraphNode> graph) {
+		
 		HMMGraphNode transCharNode = new HMMGraphNode(charNode);
 		HMMGraphNode transimageNode = new HMMGraphNode(imageNode);
 		
-		if (i != 0 && i != chars.size() - 1) {
-			transCharNode.setNeighbors(getArray(chars.size()+i + index, i+index-1, i+index+1));
-			//transimageNode.setNeighbors(getArray(i + index, chars.size()+i + index-1));
+		if (i != 0 && i != image.size() - 1) {
+			Map<String, String> map = new HashMap<>();
+			map.put(String.valueOf(image.size()+i + index), "ocr");
+			map.put(String.valueOf(i+index-1), "trans");
+			map.put(String.valueOf(i+index+1), "trans");
 			
-			Double ocrProb = GraphicalModelUtil.getOCRFactor(image.get(i), chars.get(i), ocrMap);
-			Double prevTransProb = GraphicalModelUtil.getTransFactor(chars.get(i-1), chars.get(i), transMap);
-			Double nextTransProb = GraphicalModelUtil.getTransFactor(chars.get(i), chars.get(i+1), transMap);
-			
-			transCharNode.setProbs(getArray(ocrProb, prevTransProb, nextTransProb));
-			//transimageNode.setProbs(getArray(ocrProb, transProb));
+			transCharNode.setNeighbors(map);
 		} else if (i!=0) {
-			transCharNode.setNeighbors(getArray(chars.size()+i + index, i+index-1));
-			//transimageNode.setNeighbors(getArray(i + index, chars.size()+i + index-1));
+			Map<String, String> map = new HashMap<>();
+			map.put(String.valueOf(image.size()+i + index), "ocr");
+			map.put(String.valueOf(i+index-1), "trans");
 			
-			Double ocrProb = GraphicalModelUtil.getOCRFactor(image.get(i), chars.get(i), ocrMap);
-			Double prevTransProb = GraphicalModelUtil.getTransFactor(chars.get(i-1), chars.get(i), transMap);
+			transCharNode.setNeighbors(map);
 			
-			transCharNode.setProbs(getArray(ocrProb, prevTransProb));
 		} else if (i==0) {
-			transCharNode.setNeighbors(getArray(chars.size()+i + index));
-			Double ocrProb = GraphicalModelUtil.getOCRFactor(image.get(i), chars.get(i), ocrMap);
-			transCharNode.setProbs(getArray(ocrProb));
+			Map<String, String> map = new HashMap<>();
+			map.put(String.valueOf(image.size()+i + index), "ocr");
+			map.put(String.valueOf(i+index+1), "trans");
+			
+			transCharNode.setNeighbors(map);
 		}
-		graph.put(i + index, transCharNode);
-		graph.put(chars.size()+i + index, transimageNode);
+		graph.put(String.valueOf(i + index), transCharNode);
+		graph.put(String.valueOf(image.size()+i + index), transimageNode);
 	}
 	
-	private List<Integer> getArray(int i) {
-		List<Integer> list = new ArrayList<Integer> ();
-		list.add(i);
-		return list;
-	}
 
-	private List<Double> getArray(Double prob) {
-		List<Double> list = new ArrayList<Double> ();
-		list.add(prob);
-		return list;
-	}
-
-	private List<Integer> getArray(int i, int j) {
-		List<Integer> list = new ArrayList<Integer> ();
-		list.add(i);
-		list.add(j);
-		return list;
-	}
-
-	private List<Double> getArray(Double ocrProb, Double transProb) {
-		List<Double> list = new ArrayList<Double> ();
-		list.add(ocrProb);
-		list.add(transProb);
-		return list;
-	}
-	
-	private List<Integer> getArray(int i, int j, int k) {
-		List<Integer> list = new ArrayList<Integer> ();
-		list.add(i);
-		list.add(j);
-		list.add(k);
-		return list;
-	}
-
-	private List<Double> getArray(Double ocrProb, Double transProb, Double nextProb) {
-		List<Double> list = new ArrayList<Double> ();
-		list.add(ocrProb);
-		list.add(transProb);
-		list.add(nextProb);
-		return list;
-	}
-
-	public Map<Integer, HMMGraphNode> getOcrGraph() {
+	public Map<String, HMMGraphNode> getOcrGraph() {
 		return ocrGraph;
 	}
 
-	public void setOcrGraph(Map<Integer, HMMGraphNode> ocrGraph) {
+	public void setOcrGraph(Map<String, HMMGraphNode> ocrGraph) {
 		this.ocrGraph = ocrGraph;
 	}
 
-	public Map<Integer, HMMGraphNode> getTransGraph() {
+	public Map<String, HMMGraphNode> getTransGraph() {
 		return transGraph;
 	}
 
-	public void setTransGraph(Map<Integer, HMMGraphNode> transGraph) {
+	public void setTransGraph(Map<String, HMMGraphNode> transGraph) {
 		this.transGraph = transGraph;
 	}
 
-	public Map<Integer, HMMGraphNode> getSkipGraph() {
+	public Map<String, HMMGraphNode> getSkipGraph() {
 		return skipGraph;
 	}
 
-	public void setSkipGraph(Map<Integer, HMMGraphNode> skipGraph) {
+	public void setSkipGraph(Map<String, HMMGraphNode> skipGraph) {
 		this.skipGraph = skipGraph;
 	}
 
-	public Map<Integer, HMMGraphNode> getPairSkipGraph() {
+	public Map<String, HMMGraphNode> getPairSkipGraph() {
 		return pairSkipGraph;
 	}
 
-	public void setPairSkipGraph(Map<Integer, HMMGraphNode> pairSkipGraph) {
+	public void setPairSkipGraph(Map<String, HMMGraphNode> pairSkipGraph) {
 		this.pairSkipGraph = pairSkipGraph;
-	}
-
-	public List<Character> getChars1() {
-		return chars1;
-	}
-	public void setChars1(List<Character> chars1) {
-		this.chars1 = chars1;
-	}
-	public List<Character> getChars2() {
-		return chars2;
-	}
-	public void setChars2(List<Character> chars2) {
-		this.chars2 = chars2;
 	}
 	public List<Integer> getImage1() {
 		return image1;
