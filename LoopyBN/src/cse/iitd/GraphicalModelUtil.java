@@ -29,7 +29,6 @@ public class GraphicalModelUtil {
 					truthLine = truthLine.trim();
 					line ++;
 					if(dataLine != "" && truthLine !="" ) {
-						System.out.println(line);
 						if(line ==1) {
 							for (Character c: truthLine.toCharArray())
 								chars1.add(c);
@@ -43,6 +42,11 @@ public class GraphicalModelUtil {
 						} else {
 							line = 0;
 							dt.add(new DataTree(chars1, chars2, image1, image2));
+							chars1 = new ArrayList<>();
+							chars2 = new ArrayList<>();
+							image1 = new ArrayList<>();
+							image2 = new ArrayList<>();
+							
 						}
 					}
 				}

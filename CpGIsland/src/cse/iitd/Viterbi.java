@@ -5,7 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Viterbi {
-	private static List<String> possibleHidden = Arrays.asList("A+","A-","G+","G-","C+","C-","T+","T-");
+	//private static List<String> possibleHidden = Arrays.asList("A+","A-","G+","G-","C+","C-","T+","T-");
+	private static List<String> possibleHidden = Arrays.asList("A-","A+","G-","G+","C-","C+","T-","T+");
 	private static class ViterbiPath{
 	    public double prob;
 	    public List<String> path;
@@ -28,55 +29,55 @@ public class Viterbi {
 		int i = 0;
 		for (String initial : possibleHidden) {
 			Double initialprob = cpg.getInitialProbs(initial);
-			Double emission = cpg.getEmissionProbs(observed.get(0), initial.charAt(0));
-			Double prob = 0.0;
-			if (initialprob != 0.0 && emission != 0)
-				prob = Math.log10(initialprob) + Math.log10(emission);
+			//Double emission = cpg.getEmissionProbs(observed.get(0), initial.charAt(0));
+			Double prob = initialprob;
 			vp[i] = new ViterbiPath(prob, Arrays.asList(initial), prob);
 			//System.out.println(vp[i].toString());
 			i++;
 				
 		}
 			
-			for (int o=1; o<observed.size(); o++){
+			for (int o=0; o<observed.size(); o++){
 				//System.out.println("Observation: "+observed.get(o));
 				ViterbiPath[] tempvp = new ViterbiPath[8];
 				int k =0;
 				for (String nextState : possibleHidden) {
 					//System.out.println("NextState: "+nextState);
-					double argMax = Double.NEGATIVE_INFINITY;
+					double argMax = 0.0;
 					double total = 0.0;
 					List<String> maxPath = new ArrayList<String>();
 					int j = 0;
 					for (String state : possibleHidden) {
 						//System.out.println("state: "+state);
 						//System.out.println("path: "+vp[j].toString());
-						Double prob = vp[j].prob;
+						Double prob = Math.log10(vp[j].prob);
 						List<String> prevPath = vp[j].path;
-						Double maxprob = vp[j].maxprob;
-						Double currentProb = cpg.getEmissionProbs(observed.get(o), state.charAt(0)) * cpg.getTransitionProbs(state, nextState);
-						prob += Math.log10(currentProb);
-						maxprob += Math.log10(currentProb);
+						Double maxprob = Math.log10(vp[j].maxprob);
+						
+						Double currentProb = Math.log(cpg.getEmissionProbs(observed.get(o), state.charAt(0)))+ Math.log(cpg.getTransitionProbs(state, nextState));
+						prob += currentProb;
+						maxprob += currentProb;
 						total += Math.pow(10, prob);
-						if (maxprob > argMax){
-							maxPath= new ArrayList<>(prevPath);
+						
+						if (Math.pow(Math.E, maxprob) > argMax){
+							maxPath = new ArrayList<>(prevPath);
 							maxPath.add(nextState);
-							argMax = maxprob;
+							argMax = Math.pow(Math.E, maxprob);
 						}
 						j++;
 					}
-					tempvp[k] = new ViterbiPath(Math.log10(total), maxPath, argMax);
+					tempvp[k] = new ViterbiPath(total, maxPath, argMax);
 					k++;
 				}
 				vp = tempvp;
 			}
-			double argMax = Double.NEGATIVE_INFINITY;
+			double argMax = 0.0;
 			double total = 0.0;
 			List<String> maxPath = new ArrayList<String>();
 			for (int j = 0; j <possibleHidden.size(); j++) {
-				Double prob = Math.pow(10, vp[j].prob);
+				Double prob = vp[j].prob;
 				List<String> prevPath = vp[j].path;
-				Double maxprob = Math.pow(10, vp[j].maxprob);
+				Double maxprob = vp[j].maxprob;
 				total += prob;
 				if (maxprob > argMax){
 					maxPath = prevPath;

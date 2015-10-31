@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 public class MessagePassingOverJT {
 	private static List<Character> characters = Arrays.asList('e','t','a','o','i','n','s','h','r','d');
@@ -74,36 +76,63 @@ public class MessagePassingOverJT {
 		
 		String dataFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\data-tree.dat";
 		String truthFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\truth-tree.dat";
-		
+		System.out.print("data-tree\t");
 		List<DataTree> dtList = GraphicalModelUtil.getDataTree(dataFile, truthFile);
+		 runAlgo(dtList, "pair");		
+		
+		dataFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\data-loops.dat";
+		 truthFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\truth-loops.dat";
+		 System.out.print("data-loop\t");
+		 dtList = GraphicalModelUtil.getDataTree(dataFile, truthFile);
+		 runAlgo(dtList, "pair");
+		
+		dataFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\data-treeWS.dat";
+		truthFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\truth-treeWS.dat";
+		System.out.print("data-treeWs\t");
+		dtList = GraphicalModelUtil.getDataTree(dataFile, truthFile);
+		 runAlgo(dtList, "pair");
+		
+		dataFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\data-loopsWS.dat";
+		truthFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\truth-loopsWS.dat";
+		System.out.print("data-loopWS\t");
+		dtList = GraphicalModelUtil.getDataTree(dataFile, truthFile);
+		 runAlgo(dtList, "pair");
+		 System.out.print("data-loopWS\tskip\t");
+		 runAlgo(dtList, "skip");
+		 System.out.print("data-loopWS\ttrans\t");
+		 runAlgo(dtList, "trans");
+		 System.out.print("data-loopWS\tocr\t");
+		 runAlgo(dtList, "ocr");
 		
 		//DataTree dt = new DataTree(chars1, chars2, image1, image2);
 		
-		System.out.println(dtList);
 		
-		runAlgo(dtList);
+		
 		
 		
 	}
 	
 
-	private static void runAlgo(List<DataTree> dtList) {
+	private static void runAlgo(List<DataTree> dtList, String type) {
 		double wordMatch = 0;
 		double charCount = 0;
 		double charMatch = 0;
+		double logLikelyhood = 0;
+		double totalTime = 0;
 		for (DataTree dt: dtList){
-		
-			
-			double logLikelyhood = 0;
-			
-			Double imageSize = (double) (dt.getImage1().size() + dt.getImage2().size());
-			
 			Map<String, HMMGraphNode> graph = new HashMap<String, HMMGraphNode>(dt.getPairSkipGraph());
+			if(type == "pair")
+				graph = new HashMap<String, HMMGraphNode>(dt.getPairSkipGraph());
+			else if(type == "skip")
+				graph = new HashMap<String, HMMGraphNode>(dt.getTransGraph());
+			else if(type == "ocr")
+				graph = new HashMap<String, HMMGraphNode>(dt.getOcrGraph());
+			else if(type == "trans")
+				graph = new HashMap<String, HMMGraphNode>(dt.getTransGraph());
 			Map<String, CliqueTreeNode> ct = constructCliqueTree(graph);
 			
-			
 			Random rand = new Random();
-			String root = String.valueOf(rand.nextInt(ct.size())+1);
+			String root = String.valueOf(rand.nextInt(ct.size()-1)+1);
 			long startTime = System.currentTimeMillis();
 			forwardMessagePassing(ct, graph, root);
 			backwardMessagePassing(ct, graph, root);
@@ -121,12 +150,16 @@ public class MessagePassingOverJT {
 					charMatch++;
 				charCount++;
 			}
+			logLikelyhood = logLikelyhood+pred.modelScore;
 			long elapsedTime = stopTime - startTime;
-			System.out.println("Word Match: "+ wordMatch/imageSize);
-			System.out.println("Character Match: "+ charMatch/charCount);
-			System.out.println("LogLikelyhood: "+ logLikelyhood/imageSize);
-			System.out.println("TimeStamp: "+ elapsedTime);
+			totalTime = totalTime + elapsedTime;
+			//System.out.println(pred.chars1+" "+pred.chars2+" "+dt.getChars1()+"  "+dt.getChars2() );
 		}
+		//System.out.println("Word Match: "+ wordMatch/(double)dtList.size());
+		//System.out.println("Character Match: "+ charMatch/charCount);
+		//System.out.println("LogLikelyhood: "+ logLikelyhood/(double)dtList.size());
+		//System.out.println("TimeStamp: "+ totalTime/(double)dtList.size());
+		System.out.println(wordMatch/(double)dtList.size()+"\t"+charMatch/charCount+"\t"+logLikelyhood/(double)dtList.size()+"\t"+totalTime/(double)dtList.size());
 		
 	}
 
@@ -137,13 +170,14 @@ public class MessagePassingOverJT {
 		Map<Integer, String> second = new HashMap<>();
 		Double prob = 0.0;
 		for(String node: ct.keySet()){
-			if(Integer.valueOf(ct.get(node).getVarEliminated()) < image1.size()){
+			Integer varEliminated = Integer.valueOf(ct.get(node).getVarEliminated());
+			if(varEliminated < image1.size()){
 				List<String> pred =getPrediction(ct.get(node));
-				first.put(Integer.valueOf(ct.get(node).getVarEliminated()), pred.get(0));
+				first.put(varEliminated, pred.get(0));
 				prob = prob + Math.log(Double.valueOf(pred.get(1)));
-			} else if(Integer.valueOf(ct.get(node).getVarEliminated()) >= 2*image1.size() && Integer.valueOf(ct.get(node).getVarEliminated()) <= 2*image1.size()+image2.size()){
+			} else if(varEliminated >= 2*image1.size() && varEliminated <= 2*image1.size()+image2.size()){
 				List<String> pred =getPrediction(ct.get(node));
-				first.put(Integer.valueOf(ct.get(node).getVarEliminated()), pred.get(0));
+				second.put(varEliminated, pred.get(0));
 				prob = prob + Math.log(Double.valueOf(pred.get(1)));
 				
 			}
@@ -151,13 +185,19 @@ public class MessagePassingOverJT {
 		
 		List<Character> pchars1 = new ArrayList<>();
 		List<Character> pchars2 = new ArrayList<>();
+		SortedSet<Integer> fkeys = new TreeSet<Integer>(first.keySet());
+		SortedSet<Integer> skeys = new TreeSet<Integer>(second.keySet());
+		int i = 0;
+		for (Integer key : fkeys) { 
+			pchars1.add(first.get(key).charAt(0));
+		}
 		
-		for(int i=0; i<first.size();i++) {
-			pchars1.add(first.get(i).charAt(0));
+		for (Integer key : skeys) { 
+			i++;
+			if(i == image2.size()) break;
+			pchars2.add(second.get(key).charAt(0));
 		}
-		for(int i=0; i<second.size();i++) {
-			pchars2.add(second.get(i).charAt(0));
-		}
+		
 			
 		ModelPrediction mp = new ModelPrediction(pchars1, pchars2, prob);
 		return mp;
@@ -186,6 +226,8 @@ public class MessagePassingOverJT {
 			
 		}
 		String key = findMaxIndex(newprob);
+		if(key == null)
+			return Arrays.asList(String.valueOf(characters.get(num)), "0.05");
 		return  Arrays.asList(key, String.valueOf(newprob.get(key)));
 	}
 
@@ -268,6 +310,8 @@ public class MessagePassingOverJT {
 		String node = ctnode.getVarEliminated();
 		Map<String, String> hmmNodes = ctnode.getHmmNodes();
 		List<String> probFactor = probFactors;
+		if (probFactor == null)
+			probFactor = new ArrayList<>();
 		hmmNodes.remove(node);
 		for (String nei: hmmNodes.keySet()){
 			String type = hmmNodes.get(nei);
@@ -288,12 +332,13 @@ public class MessagePassingOverJT {
 				} else {
 					String key = node;
 					String newKey = nei;
-					if(probFactor.contains(nei)){
+					if(probFactor != null && probFactor.contains(nei)){
 						key =nei;
 						newKey = node;
 					}
 					prob = getTransTransProd(key, probFactor, new ArrayList<>(Arrays.asList(node, nei)), prob, transMap);
-					probFactor.remove(probFactor.indexOf(key));
+					if (probFactor!=null &&probFactor.indexOf(key) != -1)
+						probFactor.remove(probFactor.indexOf(key));
 					probFactor.add(newKey);
 				}
 			} else if(type.equals("pair") || type.equals("skip")){
@@ -309,7 +354,8 @@ public class MessagePassingOverJT {
 						newKey = node;
 					}
 					prob = getTransTransProd(key, probFactor, new ArrayList<>(Arrays.asList(node, nei)), prob, getSkipProb());
-					probFactor.remove(probFactor.indexOf(key));
+					if(probFactor.indexOf(key) != -1)
+						probFactor.remove(probFactor.indexOf(key));
 					probFactor.add(newKey);
 				}
 			}
@@ -333,13 +379,16 @@ public class MessagePassingOverJT {
 	private static Map<List<String>, Double> getTransTransProd(String nei, List<String> transFactor1, 
 			List<String> transFactor2, Map<List<String>, Double> transProb1, Map<List<String>, Double> transProb2) {
 		Map<List<String>, Double> trans = new HashMap<>();
+		if (transFactor1 == null || transFactor2 == null) return trans;
 		int index1 = transFactor1.indexOf(nei);
 		int index2 = transFactor2.indexOf(nei);
+		if(index1 != -1 && index2 != -1)
 		for(List<String> tran1: transProb1.keySet()){
 			for(List<String> tran2: transProb2.keySet()){
-				//System.out.println(tran1.toString()+"  "+tran2.toString());
+				//System.out.println(tran1.toString()+"  "+tran2.toString() + index1+"  "+index2);
 				//System.out.println(transProb1.get(tran1)+"  "+transProb2.get(tran2));
-				if(tran1.get(index1).equals(tran2.get(index2))){
+				if(index1<tran1.size() && index2 < tran2.size())
+					if (tran1.get(index1).equals(tran2.get(index2))){
 					Double prob = Math.pow(10, (Math.log10(transProb1.get(tran1))+ Math.log10(transProb2.get(tran2))));
 					List<String> temp = new ArrayList<>(tran2);
 					List<String> temp1 = new ArrayList<>(tran1);
@@ -354,16 +403,17 @@ public class MessagePassingOverJT {
 	}
 	
 	private static Map<List<String>, Double> getSum(List<String> transFactor, Map<List<String>, Double> transProb, List<String> variables){
-		
+		if(transProb == null) return transProb;
 		for (String var : variables){
 			if(transFactor != null && !transFactor.contains(var)) continue;
 			Map<List<String>, Double> temp = new HashMap<>();
+			if (transFactor == null) continue;
 			int index = transFactor.indexOf(var);
-			System.out.println(transFactor+" "+transProb);
 			for(List<String> tran: transProb.keySet()){
 				Double prob = transProb.get(tran);
 				List<String>newFactors = new ArrayList<>( tran);
-				newFactors.remove(index);
+				if(newFactors.size()>index)
+					newFactors.remove(index);
 				if(!temp.containsKey(newFactors))
 					temp.put(newFactors, 0.0);
 				Double newprob = temp.get(newFactors) + prob;
@@ -433,6 +483,7 @@ public class MessagePassingOverJT {
 		List<String> neighbors = new ArrayList<String>(graph.get(node).getNeighbors().keySet());
 		
 		for (int i=0; i<neighbors.size();i++){
+			if(graph.get(neighbors.get(i)) != null && graph.get(neighbors.get(i)).getNeighbors() != null){
 			graph.get(neighbors.get(i)).getNeighbors().remove(node);
 			Map<String, String> nei = graph.get(neighbors.get(i)).getNeighbors();
 			for (int j=i+1; j<neighbors.size(); j++){
@@ -442,7 +493,7 @@ public class MessagePassingOverJT {
 				}
 			}
 		}
-		
+		}
 		ctgraph = insertCTNode(graph, node, ctgraph);
 		return ctgraph;
 	}
@@ -504,14 +555,15 @@ public class MessagePassingOverJT {
 	
 	public static String findMaxIndex(Map<String, Double> map) {
 		Entry<String, Double> max = null;
-		if(map != null){
+		if(map != null && map.size() != 0){
 			for (Entry<String, Double> entry : map.entrySet()) {
 			    if (max == null || max.getValue() < entry.getValue()) {
 			        max = entry;
 			    }
 			}
+			return max.getKey();
 		}
-		return max.getKey();
+		return null;
 	}
 	
 	
@@ -532,6 +584,7 @@ public class MessagePassingOverJT {
 			minFill.put(id, 0);
 			if(neighbors.size() > 1){
 				for (int i=0; i<neighbors.size();i++){
+					if(graph.get(neighbors.get(i)) != null && graph.get(neighbors.get(i)).getNeighbors() != null){
 					Map<String, String> nei = graph.get(neighbors.get(i)).getNeighbors();
 					for (int j=i+1; j<neighbors.size(); j++){
 						if(!nei.keySet().contains(neighbors.get(j))){
@@ -539,6 +592,7 @@ public class MessagePassingOverJT {
 							minFill.put(id, count + 1);
 						}
 					}
+				}
 				}
 			}
 		}

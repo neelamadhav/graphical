@@ -79,14 +79,14 @@ public class CpGIsland {
 	public Double getEmissionProbs(Character observed, Character hidden) {
 		if (observed.equals(hidden))
 			return 1.0;
-		else return 0.0;
+		else return 0.0001;
 	}
 	
 	public Double getTransitionProbs(String prevState, String state) {
 		String key = prevState +"$$$" + state;
 		if (this.trasitCounts.containsKey(key)) {
 			Integer count = this.trasitCounts.get(key);
-			return ((double) count/(double) this.totalNodes);
+			return ((double) count/((double) this.totalNodes - 1));
 		}
 		return 0.0;
 	}
