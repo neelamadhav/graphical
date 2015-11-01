@@ -12,7 +12,8 @@ public class GibbsSampling {
 	
 	public static final String PATH = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\"; 
 	public static final Integer BURN_OUT = 5000;
-	public static final Integer TOTAL_SAMPLES = 10000;
+	public static final Integer TOTAL_SAMPLES = 55000;
+	public static final Integer SKIM = 100;
 	
 	public static class SampleOutput {
 		public List<Character> sample1;
@@ -122,11 +123,15 @@ public class GibbsSampling {
 	
 	private static void getPredition(DataTree dt) {
 		List<SampleOutput> sampleList = new ArrayList<>();
+		int k = 0;
 		for(int i = 0; i <TOTAL_SAMPLES; i++){
+			gibbsSample(dt);
 			if(i>=BURN_OUT){
-				//System.out.println(dt.getSampleChars1()+"  "+dt.getSampleChars2());
-				SampleOutput so = new SampleOutput(new ArrayList<>(dt.getSampleChars1()), new ArrayList<>(dt.getSampleChars2()));
-				sampleList.add(so);
+				if( k%SKIM == 0){
+					//System.out.println(dt.getSampleChars1()+"  "+dt.getSampleChars2());
+					SampleOutput so = new SampleOutput(new ArrayList<>(dt.getSampleChars1()), new ArrayList<>(dt.getSampleChars2()));
+					sampleList.add(so);
+				}
 				
 			}
 		}
@@ -171,7 +176,6 @@ public class GibbsSampling {
 		for(DataTree dt: dtList){
 			//System.out.println("before  "+dt.toString());
 			long startTime = System.currentTimeMillis();
-			gibbsSample(dt);
 			getPredition(dt);
 			long stopTime = System.currentTimeMillis();
 			//System.out.println("after  "+dt.toString());
@@ -196,27 +200,8 @@ public class GibbsSampling {
 		System.out.println((double)wordMatch/(double)dtList.size()+"\t"+charMatch/charCount+"\t"+Math.log(logLikelyhood)+"\t"+totalTime/(double)dtList.size());
 	}
 	
-	public static void main(String[] args) {
-		String dataFile = "data-tree.dat";
-		String truthFile = "truth-tree.dat";
-		System.out.print("data\t");
-		runSampleing(dataFile, truthFile);
-		
-		dataFile = "data-loops.dat";
-		 truthFile = "truth-loops.dat";
-		 System.out.print("data-loop\t");
-		 runSampleing(dataFile, truthFile);
-		
-		dataFile = "data-treeWS.dat";
-		truthFile = "truth-treeWS.dat";
-		System.out.print("data-treeWs\t");
-		runSampleing(dataFile, truthFile);
-		
-		dataFile = "data-loopsWS.dat";
-		truthFile = "truth-loopsWS.dat";
-		runSampleing(dataFile, truthFile);
-		
-		/*List<Integer> image1 = new ArrayList<Integer>();
+	private static void runOnSample() {
+		List<Integer> image1 = new ArrayList<Integer>();
 		image1.add(207);
 		image1.add(10);
 		image1.add(728);
@@ -251,6 +236,35 @@ public class GibbsSampling {
 		//DataTree dt = new DataTree(chars1, chars2, image1, image2);
 		
 		DataTree dt = new DataTree(chars1, chars2, image1, image2);
-		getPredition(dt);*/
+		getPredition(dt);
+		
+	}
+
+	private static void runOnData() {
+		/*String dataFile = "data-tree.dat";
+		String truthFile = "truth-tree.dat";
+		System.out.print("data\t");
+		runSampleing(dataFile, truthFile);
+		
+		dataFile = "data-loops.dat";
+		 truthFile = "truth-loops.dat";
+		 System.out.print("data-loop\t");
+		 runSampleing(dataFile, truthFile);
+		
+		dataFile = "data-treeWS.dat";
+		truthFile = "truth-treeWS.dat";
+		System.out.print("data-treeWs\t");
+		runSampleing(dataFile, truthFile);*/
+		
+		String dataFile = "data-loopsWS.dat";
+		String truthFile = "truth-loopsWS.dat";
+		System.out.print("data-loopWS\t");
+		runSampleing(dataFile, truthFile);
+		
+	}
+	
+	public static void main(String[] args) {
+		runOnData();
+		//runOnSample();
 	}
 }
