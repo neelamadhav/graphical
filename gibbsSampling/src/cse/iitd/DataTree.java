@@ -12,7 +12,16 @@ public class DataTree {
 	private List<Character> chars2;
 	private List<Character> sampleChars1;
 	private List<Character> sampleChars2;
+	private Double prob = 0.0;
 	
+	public Double getProb() {
+		return prob;
+	}
+
+	public void setProb(Double prob) {
+		this.prob = prob;
+	}
+
 	public DataTree() {
 		
 	}

@@ -10,6 +10,25 @@ import java.util.Map.Entry;
 
 public class GibbsSampling {
 	
+	public static final String PATH = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\"; 
+	public static final Integer BURN_OUT = 5000;
+	public static final Integer TOTAL_SAMPLES = 10000;
+	
+	public static class SampleOutput {
+		public List<Character> sample1;
+		public List<Character> sample2;
+		public double prob;
+		
+		public SampleOutput(List<Character> sample1, List<Character> sample2){
+			this.sample1 = sample1;
+			this.sample2 = sample2;
+		}
+		
+		public String toString(){
+			return sample1.toString()+"   "+sample2.toString();
+		}
+	}
+	
 	
 	public static void sample(List<Integer> image, List<Character> sample, List<Integer> image2, List<Character> sample2){
 		for (int i=0; i<image.size(); i++) {
@@ -44,37 +63,6 @@ public class GibbsSampling {
 		
 	}
 	
-	/*private static Character inferVariable(int i, List<Integer> image, List<Character> sample, List<Integer> image2, List<Character> sample2) {
-		Double max = 0.0;
-		int maxIndex = 0;
-		List<Double> probs = new ArrayList<>();
-		List<Double> factors = getAllFactors(i, image, sample, image2, sample2);
-		int minIndex = factors.indexOf(Collections.min(factors));
-		Double minValue = factors.get(minIndex);
-		Double denom = 0.0;
-		for (Double d: factors){
-			denom = denom + Math.pow(10, d-minValue);
-		}
-		
-		
-		int k = 0;
-		for (Double d: factors) {
-			Double nume = Math.pow(10,d-minValue);
-			Double prob = nume / denom;
-			probs.add(prob);
-			if (max < prob) {
-				max = prob;
-				maxIndex = k;
-			}
-			k++;
-		}
-		System.out.println(maxIndex);
-		System.out.println(Util.characters);
-		System.out.println(probs);
-		return Util.characters.get(maxIndex);
-		
-	}*/
-
 	private static List<Double> getAllFactors(int index, List<Integer> image, List<Character> sample, List<Integer> image2, List<Character> sample2) {
 		List<Double> factor = new ArrayList<>();
 		for(Character ch : Util.characters) {
@@ -99,18 +87,136 @@ public class GibbsSampling {
 		sample(dt.getImage2(), dt.getSampleChars2(), dt.getImage1(), dt.getSampleChars1());
 	}
 
-	public static void main(String[] args) {
-		/*String dataFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\data-tree.dat";
-		String truthFile = "C:\\Users\\IBM_ADMIN\\Desktop\\graphical\\assignment2\\OCRdataset\\data\\truth-tree.dat";
-		System.out.print("data-tree\t");
+	private static DataTree predictWords(List<SampleOutput> sampleList, DataTree dt) {
+		Double prob = 0.0;
+		for(int i=0; i<sampleList.get(0).sample1.size(); i++) {
+			Map<Character, Integer> charCount = new HashMap<>();
+			for(SampleOutput so: sampleList){
+				if(!charCount.containsKey(so.sample1.get(i)))
+					charCount.put(so.sample1.get(i), 0);
+				int count = charCount.get(so.sample1.get(i));
+				charCount.put(so.sample1.get(i),count + 1);
+			}
+			Character ch = findMaxIndex(charCount);
+			dt.getSampleChars1().set(i, ch);
+			prob = dt.getProb() + Math.log10((double)charCount.get(ch)/(double)findValueIndex(charCount));
+			dt.setProb(prob);
+		}
+		for(int i=0; i<sampleList.get(0).sample2.size(); i++) {
+			Map<Character, Integer> charCount = new HashMap<>();
+			for(SampleOutput so: sampleList){
+				if(!charCount.containsKey(so.sample2.get(i)))
+					charCount.put(so.sample2.get(i), 0);
+				int count = charCount.get(so.sample2.get(i));
+				charCount.put(so.sample2.get(i),count + 1);
+			}
+			Character ch = findMaxIndex(charCount);
+			dt.getSampleChars2().set(i, ch);
+			prob = dt.getProb() + Math.log10((double)charCount.get(ch)/(double)findValueIndex(charCount));
+			dt.setProb(prob);
+		}
+		
+		return dt;
+		
+	}
+	
+	private static void getPredition(DataTree dt) {
+		List<SampleOutput> sampleList = new ArrayList<>();
+		for(int i = 0; i <TOTAL_SAMPLES; i++){
+			if(i>=BURN_OUT){
+				//System.out.println(dt.getSampleChars1()+"  "+dt.getSampleChars2());
+				SampleOutput so = new SampleOutput(new ArrayList<>(dt.getSampleChars1()), new ArrayList<>(dt.getSampleChars2()));
+				sampleList.add(so);
+				
+			}
+		}
+		predictWords(sampleList,dt);
+		
+	}
+	
+	public static Character findMaxIndex(Map<Character, Integer> map) {
+		Entry<Character, Integer> max = null;
+		if(map != null && map.size() != 0){
+			for (Entry<Character, Integer> entry : map.entrySet()) {
+			    if (max == null || max.getValue() < entry.getValue()) {
+			        max = entry;
+			    }
+			}
+			return max.getKey();
+		}
+		return null;
+	}
+	
+	public static Integer findValueIndex(Map<Character, Integer> map) {
+		Integer sum = 0;
+		if(map != null && map.size() != 0){
+			for (Entry<Character, Integer> entry : map.entrySet()) {
+			    sum = sum + entry.getValue();
+			}
+			return sum;
+		}
+		return null;
+	}
+	
+	private static void runSampleing(String dataFile, String truthFile) {
+		
+		double wordMatch = 0;
+		double charCount = 0;
+		double charMatch = 0;
+		double logLikelyhood = 0;
+		double totalTime = 0;
+		dataFile = PATH + dataFile;
+		truthFile = PATH + truthFile;
 		List<DataTree> dtList = Util.getDataTree(dataFile, truthFile);
 		for(DataTree dt: dtList){
-			System.out.println("before  "+dt.toString());
+			//System.out.println("before  "+dt.toString());
+			long startTime = System.currentTimeMillis();
 			gibbsSample(dt);
-			System.out.println("after  "+dt.toString());
-		}*/
+			getPredition(dt);
+			long stopTime = System.currentTimeMillis();
+			//System.out.println("after  "+dt.toString());
+			
+			if(dt.getSampleChars1().equals(dt.getChars1()) && dt.getSampleChars2().equals(dt.getChars2()))
+				wordMatch++;
+			for (int j=0; j<dt.getSampleChars1().size(); j++){
+				if (dt.getSampleChars1().get(j).equals(dt.getChars1().get(j)))
+					charMatch++;
+				charCount++;
+			}
+			for (int j=0; j<dt.getSampleChars2().size(); j++){
+				if (dt.getSampleChars2().get(j).equals(dt.getChars2().get(j)))
+					charMatch++;
+				charCount++;
+			}
+			logLikelyhood = logLikelyhood+Math.pow(10, dt.getProb());
+			long elapsedTime = stopTime - startTime;
+			totalTime = totalTime + elapsedTime;
+			
+		}
+		System.out.println((double)wordMatch/(double)dtList.size()+"\t"+charMatch/charCount+"\t"+Math.log(logLikelyhood)+"\t"+totalTime/(double)dtList.size());
+	}
+	
+	public static void main(String[] args) {
+		String dataFile = "data-tree.dat";
+		String truthFile = "truth-tree.dat";
+		System.out.print("data\t");
+		runSampleing(dataFile, truthFile);
 		
-		List<Integer> image1 = new ArrayList<Integer>();
+		dataFile = "data-loops.dat";
+		 truthFile = "truth-loops.dat";
+		 System.out.print("data-loop\t");
+		 runSampleing(dataFile, truthFile);
+		
+		dataFile = "data-treeWS.dat";
+		truthFile = "truth-treeWS.dat";
+		System.out.print("data-treeWs\t");
+		runSampleing(dataFile, truthFile);
+		
+		dataFile = "data-loopsWS.dat";
+		truthFile = "truth-loopsWS.dat";
+		runSampleing(dataFile, truthFile);
+		
+		/*List<Integer> image1 = new ArrayList<Integer>();
 		image1.add(207);
 		image1.add(10);
 		image1.add(728);
@@ -145,27 +251,6 @@ public class GibbsSampling {
 		//DataTree dt = new DataTree(chars1, chars2, image1, image2);
 		
 		DataTree dt = new DataTree(chars1, chars2, image1, image2);
-		List<List<Character>> sampleList = new ArrayList<>();
-		for(int i = 0; i <1100; i++){
-			gibbsSample(dt);
-			if(i>=1000){
-				System.out.println(dt.toString());
-				List<Character> sampledt = new ArrayList<>(dt.getSampleChars1());
-				sampleList.add(sampledt);
-				sampledt = new ArrayList<>(dt.getSampleChars2());
-				sampleList.add(sampledt);
-			}
-		}
-		System.out.println("after  "+predictWords(sampleList));
+		getPredition(dt);*/
 	}
-
-	
-
-	private static DataTree predictWords(List<List<Character>> sampleList) {
-		
-		
-	}
-	
-	
-
 }
