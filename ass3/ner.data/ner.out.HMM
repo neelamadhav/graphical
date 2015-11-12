@@ -1,0 +1,3228 @@
+Number of features in training data: 9013
+Training Fraction....1.0
+Number of predicates: 9013
+Labels: O B-geo-loc B-person I-person B-other I-other B-product B-company I-company I-geo-loc B-facility I-facility I-product
+Preparing O
+State #0 "O"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing B-geo-loc
+State #1 "B-geo-loc"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing B-person
+State #2 "B-person"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing I-person
+State #3 "I-person"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing B-other
+State #4 "B-other"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing I-other
+State #5 "I-other"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing B-product
+State #6 "B-product"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing B-company
+State #7 "B-company"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing I-company
+State #8 "I-company"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing I-geo-loc
+State #9 "I-geo-loc"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing B-facility
+State #10 "B-facility"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing I-facility
+State #11 "I-facility"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Preparing I-product
+State #12 "I-product"
+initialWeight=0.0, finalWeight=0.0
+#destinations=13
+-> O
+-> B-geo-loc
+-> B-person
+-> I-person
+-> B-other
+-> I-other
+-> B-product
+-> B-company
+-> I-company
+-> I-geo-loc
+-> B-facility
+-> I-facility
+-> I-product
+Training on 1837 instances
+Testing on 0 instances
+getValue() (observed log-likelihood) = -417228.22827741026
+getValue() (log-likelihood) = -417228.22827741026
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=1 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264188.55736596993
+getValue() (log-likelihood) = -264188.55736596993
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=2 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264191.0293859344
+getValue() (log-likelihood) = -264191.0293859344
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=3 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264192.5284243147
+getValue() (log-likelihood) = -264192.5284243147
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=4 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264193.5189193682
+getValue() (log-likelihood) = -264193.5189193682
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=5 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264194.21850351745
+getValue() (log-likelihood) = -264194.21850351745
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=6 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264194.73812527326
+getValue() (log-likelihood) = -264194.73812527326
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=7 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264195.13884808903
+getValue() (log-likelihood) = -264195.13884808903
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=8 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264195.4566568375
+getValue() (log-likelihood) = -264195.4566568375
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=9 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264195.71406047477
+getValue() (log-likelihood) = -264195.71406047477
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=10 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264195.9258841075
+getValue() (log-likelihood) = -264195.9258841075
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=11 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.1023376734
+getValue() (log-likelihood) = -264196.1023376734
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=12 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.2507288814
+getValue() (log-likelihood) = -264196.2507288814
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=13 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.37646351696
+getValue() (log-likelihood) = -264196.37646351696
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=14 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.48365318554
+getValue() (log-likelihood) = -264196.48365318554
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=15 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.5754980932
+getValue() (log-likelihood) = -264196.5754980932
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=16 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.65453641646
+getValue() (log-likelihood) = -264196.65453641646
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=17 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.7228121018
+getValue() (log-likelihood) = -264196.7228121018
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=18 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.78199131705
+getValue() (log-likelihood) = -264196.78199131705
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=19 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.83344565117
+getValue() (log-likelihood) = -264196.83344565117
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=20 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.8783131693
+getValue() (log-likelihood) = -264196.8783131693
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=21 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.91754428804
+getValue() (log-likelihood) = -264196.91754428804
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=22 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.9519369657
+getValue() (log-likelihood) = -264196.9519369657
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=23 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264196.9821641899
+getValue() (log-likelihood) = -264196.9821641899
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=24 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.0087957461
+getValue() (log-likelihood) = -264197.0087957461
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=25 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.0323156818
+getValue() (log-likelihood) = -264197.0323156818
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=26 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.05313645094
+getValue() (log-likelihood) = -264197.05313645094
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=27 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.0716104738
+getValue() (log-likelihood) = -264197.0716104738
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=28 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.0880396359
+getValue() (log-likelihood) = -264197.0880396359
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=29 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.10268314753
+getValue() (log-likelihood) = -264197.10268314753
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=30 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.11576407414
+getValue() (log-likelihood) = -264197.11576407414
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=31 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.1274747891
+getValue() (log-likelihood) = -264197.1274747891
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=32 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.13798153476
+getValue() (log-likelihood) = -264197.13798153476
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=33 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.1474282588
+getValue() (log-likelihood) = -264197.1474282588
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=34 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.15593984496
+getValue() (log-likelihood) = -264197.15593984496
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=35 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.16362484026
+getValue() (log-likelihood) = -264197.16362484026
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=36 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.17057776806
+getValue() (log-likelihood) = -264197.17057776806
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=37 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.1768810859
+getValue() (log-likelihood) = -264197.1768810859
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=38 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.1826068583
+getValue() (log-likelihood) = -264197.1826068583
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=39 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.1878181716
+getValue() (log-likelihood) = -264197.1878181716
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=40 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.19257035275
+getValue() (log-likelihood) = -264197.19257035275
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=41 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.19691200426
+getValue() (log-likelihood) = -264197.19691200426
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=42 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.20088589465
+getValue() (log-likelihood) = -264197.20088589465
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=43 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.20452972216
+getValue() (log-likelihood) = -264197.20452972216
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=44 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2078767706
+getValue() (log-likelihood) = -264197.2078767706
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=45 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.21095647605
+getValue() (log-likelihood) = -264197.21095647605
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=46 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.213794915
+getValue() (log-likelihood) = -264197.213794915
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=47 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2164152237
+getValue() (log-likelihood) = -264197.2164152237
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=48 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2188379645
+getValue() (log-likelihood) = -264197.2188379645
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=49 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2210814432
+getValue() (log-likelihood) = -264197.2210814432
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=50 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2231619791
+getValue() (log-likelihood) = -264197.2231619791
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=51 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.22509415087
+getValue() (log-likelihood) = -264197.22509415087
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=52 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2268909972
+getValue() (log-likelihood) = -264197.2268909972
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=53 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2285642018
+getValue() (log-likelihood) = -264197.2285642018
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=54 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.23012424883
+getValue() (log-likelihood) = -264197.23012424883
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=55 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.23158056353
+getValue() (log-likelihood) = -264197.23158056353
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=56 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.23294163245
+getValue() (log-likelihood) = -264197.23294163245
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=57 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.23421510786
+getValue() (log-likelihood) = -264197.23421510786
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=58 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2354079026
+getValue() (log-likelihood) = -264197.2354079026
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=59 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2365262695
+getValue() (log-likelihood) = -264197.2365262695
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=60 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.23757587705
+getValue() (log-likelihood) = -264197.23757587705
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=61 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.23856186634
+getValue() (log-likelihood) = -264197.23856186634
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=62 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.23948891566
+getValue() (log-likelihood) = -264197.23948891566
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=63 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24036128074
+getValue() (log-likelihood) = -264197.24036128074
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=64 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2411828443
+getValue() (log-likelihood) = -264197.2411828443
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=65 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24195715185
+getValue() (log-likelihood) = -264197.24195715185
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=66 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2426874476
+getValue() (log-likelihood) = -264197.2426874476
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=67 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24337670294
+getValue() (log-likelihood) = -264197.24337670294
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=68 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24402764626
+getValue() (log-likelihood) = -264197.24402764626
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=69 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2446427802
+getValue() (log-likelihood) = -264197.2446427802
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=70 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24522441364
+getValue() (log-likelihood) = -264197.24522441364
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=71 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24577467
+getValue() (log-likelihood) = -264197.24577467
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=72 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2462955115
+getValue() (log-likelihood) = -264197.2462955115
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=73 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2467887495
+getValue() (log-likelihood) = -264197.2467887495
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=74 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24725606333
+getValue() (log-likelihood) = -264197.24725606333
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=75 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2476990066
+getValue() (log-likelihood) = -264197.2476990066
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=76 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24811902177
+getValue() (log-likelihood) = -264197.24811902177
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=77 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24851744896
+getValue() (log-likelihood) = -264197.24851744896
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=78 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24889553455
+getValue() (log-likelihood) = -264197.24889553455
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=79 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2492544389
+getValue() (log-likelihood) = -264197.2492544389
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=80 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2495952466
+getValue() (log-likelihood) = -264197.2495952466
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=81 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.24991896586
+getValue() (log-likelihood) = -264197.24991896586
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=82 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2502265424
+getValue() (log-likelihood) = -264197.2502265424
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=83 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2505188576
+getValue() (log-likelihood) = -264197.2505188576
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=84 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25079674064
+getValue() (log-likelihood) = -264197.25079674064
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=85 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2510609637
+getValue() (log-likelihood) = -264197.2510609637
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=86 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2513122563
+getValue() (log-likelihood) = -264197.2513122563
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=87 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2515513013
+getValue() (log-likelihood) = -264197.2515513013
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=88 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2517787386
+getValue() (log-likelihood) = -264197.2517787386
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=89 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25199517305
+getValue() (log-likelihood) = -264197.25199517305
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=90 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2522011712
+getValue() (log-likelihood) = -264197.2522011712
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=91 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25239726895
+getValue() (log-likelihood) = -264197.25239726895
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=92 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25258397096
+getValue() (log-likelihood) = -264197.25258397096
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=93 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25276175275
+getValue() (log-likelihood) = -264197.25276175275
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=94 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25293106266
+getValue() (log-likelihood) = -264197.25293106266
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=95 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2530923253
+getValue() (log-likelihood) = -264197.2530923253
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=96 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2532459407
+getValue() (log-likelihood) = -264197.2532459407
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=97 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2533922885
+getValue() (log-likelihood) = -264197.2533922885
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=98 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25353172724
+getValue() (log-likelihood) = -264197.25353172724
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=99 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2536645964
+getValue() (log-likelihood) = -264197.2536645964
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=100 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25379121536
+getValue() (log-likelihood) = -264197.25379121536
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=101 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2539118911
+getValue() (log-likelihood) = -264197.2539118911
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=102 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2540269105
+getValue() (log-likelihood) = -264197.2540269105
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=103 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2541365474
+getValue() (log-likelihood) = -264197.2541365474
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=104 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25424106134
+getValue() (log-likelihood) = -264197.25424106134
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=105 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2543406974
+getValue() (log-likelihood) = -264197.2543406974
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=106 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25443569105
+getValue() (log-likelihood) = -264197.25443569105
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=107 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25452626246
+getValue() (log-likelihood) = -264197.25452626246
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=108 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25461262267
+getValue() (log-likelihood) = -264197.25461262267
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=109 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25469497265
+getValue() (log-likelihood) = -264197.25469497265
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=110 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2547735025
+getValue() (log-likelihood) = -264197.2547735025
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=111 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2548483905
+getValue() (log-likelihood) = -264197.2548483905
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=112 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.254919812
+getValue() (log-likelihood) = -264197.254919812
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=113 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.254987929
+getValue() (log-likelihood) = -264197.254987929
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=114 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2550528954
+getValue() (log-likelihood) = -264197.2550528954
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=115 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25511486153
+getValue() (log-likelihood) = -264197.25511486153
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=116 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25517396553
+getValue() (log-likelihood) = -264197.25517396553
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=117 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2552303434
+getValue() (log-likelihood) = -264197.2552303434
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=118 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25528412184
+getValue() (log-likelihood) = -264197.25528412184
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=119 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2553354225
+getValue() (log-likelihood) = -264197.2553354225
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=120 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25538436027
+getValue() (log-likelihood) = -264197.25538436027
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=121 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2554310452
+getValue() (log-likelihood) = -264197.2554310452
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=122 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2554755826
+getValue() (log-likelihood) = -264197.2554755826
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=123 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2555180709
+getValue() (log-likelihood) = -264197.2555180709
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=124 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25555860664
+getValue() (log-likelihood) = -264197.25555860664
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=125 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25559728016
+getValue() (log-likelihood) = -264197.25559728016
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=126 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25563417753
+getValue() (log-likelihood) = -264197.25563417753
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=127 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25566938013
+getValue() (log-likelihood) = -264197.25566938013
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=128 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25570296723
+getValue() (log-likelihood) = -264197.25570296723
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=129 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25573501375
+getValue() (log-likelihood) = -264197.25573501375
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=130 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2557655894
+getValue() (log-likelihood) = -264197.2557655894
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=131 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25579476333
+getValue() (log-likelihood) = -264197.25579476333
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=132 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2558226007
+getValue() (log-likelihood) = -264197.2558226007
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=133 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2558491603
+getValue() (log-likelihood) = -264197.2558491603
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=134 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25587450503
+getValue() (log-likelihood) = -264197.25587450503
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=135 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25589868746
+getValue() (log-likelihood) = -264197.25589868746
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=136 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2559217623
+getValue() (log-likelihood) = -264197.2559217623
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=137 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25594378076
+getValue() (log-likelihood) = -264197.25594378076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=138 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2559647914
+getValue() (log-likelihood) = -264197.2559647914
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=139 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25598484
+getValue() (log-likelihood) = -264197.25598484
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=140 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25600397075
+getValue() (log-likelihood) = -264197.25600397075
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=141 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25602222636
+getValue() (log-likelihood) = -264197.25602222636
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=142 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25603964616
+getValue() (log-likelihood) = -264197.25603964616
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=143 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2560562702
+getValue() (log-likelihood) = -264197.2560562702
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=144 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25607213326
+getValue() (log-likelihood) = -264197.25607213326
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=145 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25608727086
+getValue() (log-likelihood) = -264197.25608727086
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=146 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25610171526
+getValue() (log-likelihood) = -264197.25610171526
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=147 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25611550163
+getValue() (log-likelihood) = -264197.25611550163
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=148 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2561286554
+getValue() (log-likelihood) = -264197.2561286554
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=149 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2561412088
+getValue() (log-likelihood) = -264197.2561412088
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=150 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2561531879
+getValue() (log-likelihood) = -264197.2561531879
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=151 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2561646194
+getValue() (log-likelihood) = -264197.2561646194
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=152 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25617552927
+getValue() (log-likelihood) = -264197.25617552927
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=153 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25618594006
+getValue() (log-likelihood) = -264197.25618594006
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=154 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2561958749
+getValue() (log-likelihood) = -264197.2561958749
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=155 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2562053562
+getValue() (log-likelihood) = -264197.2562053562
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=156 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2562144042
+getValue() (log-likelihood) = -264197.2562144042
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=157 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25622303877
+getValue() (log-likelihood) = -264197.25622303877
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=158 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2562312787
+getValue() (log-likelihood) = -264197.2562312787
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=159 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25623914285
+getValue() (log-likelihood) = -264197.25623914285
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=160 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2562466476
+getValue() (log-likelihood) = -264197.2562466476
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=161 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2562538091
+getValue() (log-likelihood) = -264197.2562538091
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=162 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2562606442
+getValue() (log-likelihood) = -264197.2562606442
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=163 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2562671661
+getValue() (log-likelihood) = -264197.2562671661
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=164 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25627339026
+getValue() (log-likelihood) = -264197.25627339026
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=165 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25627933047
+getValue() (log-likelihood) = -264197.25627933047
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=166 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2562850001
+getValue() (log-likelihood) = -264197.2562850001
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=167 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25629041006
+getValue() (log-likelihood) = -264197.25629041006
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=168 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25629557297
+getValue() (log-likelihood) = -264197.25629557297
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=169 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25630050123
+getValue() (log-likelihood) = -264197.25630050123
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=170 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563052034
+getValue() (log-likelihood) = -264197.2563052034
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=171 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25630969077
+getValue() (log-likelihood) = -264197.25630969077
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=172 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25631397386
+getValue() (log-likelihood) = -264197.25631397386
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=173 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563180614
+getValue() (log-likelihood) = -264197.2563180614
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=174 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25632196147
+getValue() (log-likelihood) = -264197.25632196147
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=175 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563256843
+getValue() (log-likelihood) = -264197.2563256843
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=176 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563292368
+getValue() (log-likelihood) = -264197.2563292368
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=177 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25633262726
+getValue() (log-likelihood) = -264197.25633262726
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=178 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563358633
+getValue() (log-likelihood) = -264197.2563358633
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=179 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563389511
+getValue() (log-likelihood) = -264197.2563389511
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=180 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563418977
+getValue() (log-likelihood) = -264197.2563418977
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=181 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25634471024
+getValue() (log-likelihood) = -264197.25634471024
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=182 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563473949
+getValue() (log-likelihood) = -264197.2563473949
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=183 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563499562
+getValue() (log-likelihood) = -264197.2563499562
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=184 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563524005
+getValue() (log-likelihood) = -264197.2563524005
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=185 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25635473424
+getValue() (log-likelihood) = -264197.25635473424
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=186 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25635696086
+getValue() (log-likelihood) = -264197.25635696086
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=187 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563590856
+getValue() (log-likelihood) = -264197.2563590856
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=188 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563611136
+getValue() (log-likelihood) = -264197.2563611136
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=189 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25636304845
+getValue() (log-likelihood) = -264197.25636304845
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=190 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563648957
+getValue() (log-likelihood) = -264197.2563648957
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=191 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563666587
+getValue() (log-likelihood) = -264197.2563666587
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=192 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563683404
+getValue() (log-likelihood) = -264197.2563683404
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=193 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25636994647
+getValue() (log-likelihood) = -264197.25636994647
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=194 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563714786
+getValue() (log-likelihood) = -264197.2563714786
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=195 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25637294084
+getValue() (log-likelihood) = -264197.25637294084
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=196 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25637433695
+getValue() (log-likelihood) = -264197.25637433695
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=197 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563756682
+getValue() (log-likelihood) = -264197.2563756682
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=198 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563769395
+getValue() (log-likelihood) = -264197.2563769395
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=199 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25637815293
+getValue() (log-likelihood) = -264197.25637815293
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=200 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563793108
+getValue() (log-likelihood) = -264197.2563793108
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=201 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25638041506
+getValue() (log-likelihood) = -264197.25638041506
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=202 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563814693
+getValue() (log-likelihood) = -264197.2563814693
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=203 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563824758
+getValue() (log-likelihood) = -264197.2563824758
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=204 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25638343615
+getValue() (log-likelihood) = -264197.25638343615
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=205 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256384353
+getValue() (log-likelihood) = -264197.256384353
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=206 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563852277
+getValue() (log-likelihood) = -264197.2563852277
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=207 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25638606225
+getValue() (log-likelihood) = -264197.25638606225
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=208 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25638685934
+getValue() (log-likelihood) = -264197.25638685934
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=209 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25638761965
+getValue() (log-likelihood) = -264197.25638761965
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=210 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563883449
+getValue() (log-likelihood) = -264197.2563883449
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=211 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563890376
+getValue() (log-likelihood) = -264197.2563890376
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=212 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563896987
+getValue() (log-likelihood) = -264197.2563896987
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=213 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639032933
+getValue() (log-likelihood) = -264197.25639032933
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=214 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639093213
+getValue() (log-likelihood) = -264197.25639093213
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=215 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256391506
+getValue() (log-likelihood) = -264197.256391506
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=216 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639205414
+getValue() (log-likelihood) = -264197.25639205414
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=217 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563925774
+getValue() (log-likelihood) = -264197.2563925774
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=218 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563930771
+getValue() (log-likelihood) = -264197.2563930771
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=219 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563935537
+getValue() (log-likelihood) = -264197.2563935537
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=220 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563940078
+getValue() (log-likelihood) = -264197.2563940078
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=221 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563944425
+getValue() (log-likelihood) = -264197.2563944425
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=222 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563948574
+getValue() (log-likelihood) = -264197.2563948574
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=223 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563952523
+getValue() (log-likelihood) = -264197.2563952523
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=224 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639562943
+getValue() (log-likelihood) = -264197.25639562943
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=225 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563959894
+getValue() (log-likelihood) = -264197.2563959894
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=226 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563963334
+getValue() (log-likelihood) = -264197.2563963334
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=227 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563966613
+getValue() (log-likelihood) = -264197.2563966613
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=228 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563969749
+getValue() (log-likelihood) = -264197.2563969749
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=229 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563972733
+getValue() (log-likelihood) = -264197.2563972733
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=230 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639755867
+getValue() (log-likelihood) = -264197.25639755867
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=231 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563978308
+getValue() (log-likelihood) = -264197.2563978308
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=232 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639809016
+getValue() (log-likelihood) = -264197.25639809016
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=233 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639833807
+getValue() (log-likelihood) = -264197.25639833807
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=234 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563985745
+getValue() (log-likelihood) = -264197.2563985745
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=235 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563988
+getValue() (log-likelihood) = -264197.2563988
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=236 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563990151
+getValue() (log-likelihood) = -264197.2563990151
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=237 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639922125
+getValue() (log-likelihood) = -264197.25639922125
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=238 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639941794
+getValue() (log-likelihood) = -264197.25639941794
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=239 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639960455
+getValue() (log-likelihood) = -264197.25639960455
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=240 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25639978296
+getValue() (log-likelihood) = -264197.25639978296
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=241 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2563999535
+getValue() (log-likelihood) = -264197.2563999535
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=242 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564001163
+getValue() (log-likelihood) = -264197.2564001163
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=243 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256400272
+getValue() (log-likelihood) = -264197.256400272
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=244 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564004204
+getValue() (log-likelihood) = -264197.2564004204
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=245 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256400562
+getValue() (log-likelihood) = -264197.256400562
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=246 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564006969
+getValue() (log-likelihood) = -264197.2564006969
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=247 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640082586
+getValue() (log-likelihood) = -264197.25640082586
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=248 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256400948
+getValue() (log-likelihood) = -264197.256400948
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=249 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564010657
+getValue() (log-likelihood) = -264197.2564010657
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=250 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564011783
+getValue() (log-likelihood) = -264197.2564011783
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=251 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564012854
+getValue() (log-likelihood) = -264197.2564012854
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=252 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564013865
+getValue() (log-likelihood) = -264197.2564013865
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=253 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256401484
+getValue() (log-likelihood) = -264197.256401484
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=254 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640157756
+getValue() (log-likelihood) = -264197.25640157756
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=255 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564016662
+getValue() (log-likelihood) = -264197.2564016662
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=256 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564017508
+getValue() (log-likelihood) = -264197.2564017508
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=257 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564018317
+getValue() (log-likelihood) = -264197.2564018317
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=258 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640190864
+getValue() (log-likelihood) = -264197.25640190864
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=259 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256401982
+getValue() (log-likelihood) = -264197.256401982
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=260 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564020528
+getValue() (log-likelihood) = -264197.2564020528
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=261 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564021198
+getValue() (log-likelihood) = -264197.2564021198
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=262 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640218315
+getValue() (log-likelihood) = -264197.25640218315
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=263 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640224415
+getValue() (log-likelihood) = -264197.25640224415
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=264 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564023028
+getValue() (log-likelihood) = -264197.2564023028
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=265 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640235795
+getValue() (log-likelihood) = -264197.25640235795
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=266 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640241185
+getValue() (log-likelihood) = -264197.25640241185
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=267 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564024616
+getValue() (log-likelihood) = -264197.2564024616
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=268 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640251
+getValue() (log-likelihood) = -264197.25640251
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=269 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564025562
+getValue() (log-likelihood) = -264197.2564025562
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=270 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564026005
+getValue() (log-likelihood) = -264197.2564026005
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=271 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564026424
+getValue() (log-likelihood) = -264197.2564026424
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=272 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640268275
+getValue() (log-likelihood) = -264197.25640268275
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=273 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564027209
+getValue() (log-likelihood) = -264197.2564027209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=274 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564027572
+getValue() (log-likelihood) = -264197.2564027572
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=275 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564027921
+getValue() (log-likelihood) = -264197.2564027921
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=276 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640282565
+getValue() (log-likelihood) = -264197.25640282565
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=277 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564028577
+getValue() (log-likelihood) = -264197.2564028577
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=278 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640288764
+getValue() (log-likelihood) = -264197.25640288764
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=279 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564029168
+getValue() (log-likelihood) = -264197.2564029168
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=280 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564029441
+getValue() (log-likelihood) = -264197.2564029441
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=281 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640297035
+getValue() (log-likelihood) = -264197.25640297035
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=282 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640299555
+getValue() (log-likelihood) = -264197.25640299555
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=283 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640301965
+getValue() (log-likelihood) = -264197.25640301965
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=284 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564030426
+getValue() (log-likelihood) = -264197.2564030426
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=285 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403064
+getValue() (log-likelihood) = -264197.256403064
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=286 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403085
+getValue() (log-likelihood) = -264197.256403085
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=287 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564031045
+getValue() (log-likelihood) = -264197.2564031045
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=288 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640312367
+getValue() (log-likelihood) = -264197.25640312367
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=289 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564031417
+getValue() (log-likelihood) = -264197.2564031417
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=290 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403159
+getValue() (log-likelihood) = -264197.256403159
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=291 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564031759
+getValue() (log-likelihood) = -264197.2564031759
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=292 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564031916
+getValue() (log-likelihood) = -264197.2564031916
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=293 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640320603
+getValue() (log-likelihood) = -264197.25640320603
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=294 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640322076
+getValue() (log-likelihood) = -264197.25640322076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=295 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564032349
+getValue() (log-likelihood) = -264197.2564032349
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=296 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640324823
+getValue() (log-likelihood) = -264197.25640324823
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=297 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640325964
+getValue() (log-likelihood) = -264197.25640325964
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=298 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640327187
+getValue() (log-likelihood) = -264197.25640327187
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=299 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564032831
+getValue() (log-likelihood) = -264197.2564032831
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=300 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640329457
+getValue() (log-likelihood) = -264197.25640329457
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=301 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564033046
+getValue() (log-likelihood) = -264197.2564033046
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=302 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564033148
+getValue() (log-likelihood) = -264197.2564033148
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=303 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640332425
+getValue() (log-likelihood) = -264197.25640332425
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=304 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640333316
+getValue() (log-likelihood) = -264197.25640333316
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=305 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564033414
+getValue() (log-likelihood) = -264197.2564033414
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=306 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640334963
+getValue() (log-likelihood) = -264197.25640334963
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=307 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564033577
+getValue() (log-likelihood) = -264197.2564033577
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=308 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640336535
+getValue() (log-likelihood) = -264197.25640336535
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=309 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403372
+getValue() (log-likelihood) = -264197.256403372
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=310 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564033791
+getValue() (log-likelihood) = -264197.2564033791
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=311 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640338595
+getValue() (log-likelihood) = -264197.25640338595
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=312 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564033912
+getValue() (log-likelihood) = -264197.2564033912
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=313 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640339736
+getValue() (log-likelihood) = -264197.25640339736
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=314 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640340353
+getValue() (log-likelihood) = -264197.25640340353
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=315 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034085
+getValue() (log-likelihood) = -264197.2564034085
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=316 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034139
+getValue() (log-likelihood) = -264197.2564034139
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=317 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640341797
+getValue() (log-likelihood) = -264197.25640341797
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=318 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640342303
+getValue() (log-likelihood) = -264197.25640342303
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=319 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640342734
+getValue() (log-likelihood) = -264197.25640342734
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=320 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034322
+getValue() (log-likelihood) = -264197.2564034322
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=321 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034368
+getValue() (log-likelihood) = -264197.2564034368
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=322 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640344014
+getValue() (log-likelihood) = -264197.25640344014
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=323 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640344335
+getValue() (log-likelihood) = -264197.25640344335
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=324 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034472
+getValue() (log-likelihood) = -264197.2564034472
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=325 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640345126
+getValue() (log-likelihood) = -264197.25640345126
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=326 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403454
+getValue() (log-likelihood) = -264197.256403454
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=327 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034569
+getValue() (log-likelihood) = -264197.2564034569
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=328 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034602
+getValue() (log-likelihood) = -264197.2564034602
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=329 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640346255
+getValue() (log-likelihood) = -264197.25640346255
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=330 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640346535
+getValue() (log-likelihood) = -264197.25640346535
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=331 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640346785
+getValue() (log-likelihood) = -264197.25640346785
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=332 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640347
+getValue() (log-likelihood) = -264197.25640347
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=333 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640347257
+getValue() (log-likelihood) = -264197.25640347257
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=334 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034747
+getValue() (log-likelihood) = -264197.2564034747
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=335 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640347676
+getValue() (log-likelihood) = -264197.25640347676
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=336 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034793
+getValue() (log-likelihood) = -264197.2564034793
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=337 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034806
+getValue() (log-likelihood) = -264197.2564034806
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=338 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640348234
+getValue() (log-likelihood) = -264197.25640348234
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=339 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640348415
+getValue() (log-likelihood) = -264197.25640348415
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=340 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640348584
+getValue() (log-likelihood) = -264197.25640348584
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=341 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640348735
+getValue() (log-likelihood) = -264197.25640348735
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=342 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403489
+getValue() (log-likelihood) = -264197.256403489
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=343 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034903
+getValue() (log-likelihood) = -264197.2564034903
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=344 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034917
+getValue() (log-likelihood) = -264197.2564034917
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=345 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034932
+getValue() (log-likelihood) = -264197.2564034932
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=346 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034943
+getValue() (log-likelihood) = -264197.2564034943
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=347 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034952
+getValue() (log-likelihood) = -264197.2564034952
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=348 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403497
+getValue() (log-likelihood) = -264197.256403497
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=349 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034976
+getValue() (log-likelihood) = -264197.2564034976
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=350 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034985
+getValue() (log-likelihood) = -264197.2564034985
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=351 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564034998
+getValue() (log-likelihood) = -264197.2564034998
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=352 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035009
+getValue() (log-likelihood) = -264197.2564035009
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=353 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640350225
+getValue() (log-likelihood) = -264197.25640350225
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=354 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035032
+getValue() (log-likelihood) = -264197.2564035032
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=355 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035041
+getValue() (log-likelihood) = -264197.2564035041
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=356 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640350446
+getValue() (log-likelihood) = -264197.25640350446
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=357 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035056
+getValue() (log-likelihood) = -264197.2564035056
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=358 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035066
+getValue() (log-likelihood) = -264197.2564035066
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=359 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035071
+getValue() (log-likelihood) = -264197.2564035071
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=360 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035078
+getValue() (log-likelihood) = -264197.2564035078
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=361 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640350796
+getValue() (log-likelihood) = -264197.25640350796
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=362 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640350865
+getValue() (log-likelihood) = -264197.25640350865
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=363 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035092
+getValue() (log-likelihood) = -264197.2564035092
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=364 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035099
+getValue() (log-likelihood) = -264197.2564035099
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=365 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035102
+getValue() (log-likelihood) = -264197.2564035102
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=366 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403511
+getValue() (log-likelihood) = -264197.256403511
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=367 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035116
+getValue() (log-likelihood) = -264197.2564035116
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=368 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035121
+getValue() (log-likelihood) = -264197.2564035121
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=369 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035125
+getValue() (log-likelihood) = -264197.2564035125
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=370 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035125
+getValue() (log-likelihood) = -264197.2564035125
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=371 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035127
+getValue() (log-likelihood) = -264197.2564035127
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=372 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403513
+getValue() (log-likelihood) = -264197.256403513
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=373 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035138
+getValue() (log-likelihood) = -264197.2564035138
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=374 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351395
+getValue() (log-likelihood) = -264197.25640351395
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=375 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351407
+getValue() (log-likelihood) = -264197.25640351407
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=376 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351436
+getValue() (log-likelihood) = -264197.25640351436
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=377 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035147
+getValue() (log-likelihood) = -264197.2564035147
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=378 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403515
+getValue() (log-likelihood) = -264197.256403515
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=379 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035155
+getValue() (log-likelihood) = -264197.2564035155
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=380 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351593
+getValue() (log-likelihood) = -264197.25640351593
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=381 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035159
+getValue() (log-likelihood) = -264197.2564035159
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=382 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035161
+getValue() (log-likelihood) = -264197.2564035161
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=383 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035166
+getValue() (log-likelihood) = -264197.2564035166
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=384 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351675
+getValue() (log-likelihood) = -264197.25640351675
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=385 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035169
+getValue() (log-likelihood) = -264197.2564035169
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=386 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035172
+getValue() (log-likelihood) = -264197.2564035172
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=387 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351715
+getValue() (log-likelihood) = -264197.25640351715
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=388 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351715
+getValue() (log-likelihood) = -264197.25640351715
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=389 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351727
+getValue() (log-likelihood) = -264197.25640351727
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=390 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035175
+getValue() (log-likelihood) = -264197.2564035175
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=391 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351797
+getValue() (log-likelihood) = -264197.25640351797
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=392 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035179
+getValue() (log-likelihood) = -264197.2564035179
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=393 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035181
+getValue() (log-likelihood) = -264197.2564035181
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=394 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035182
+getValue() (log-likelihood) = -264197.2564035182
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=395 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035184
+getValue() (log-likelihood) = -264197.2564035184
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=396 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035189
+getValue() (log-likelihood) = -264197.2564035189
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=397 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351896
+getValue() (log-likelihood) = -264197.25640351896
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=398 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035189
+getValue() (log-likelihood) = -264197.2564035189
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=399 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035189
+getValue() (log-likelihood) = -264197.2564035189
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=400 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035192
+getValue() (log-likelihood) = -264197.2564035192
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=401 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351925
+getValue() (log-likelihood) = -264197.25640351925
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=402 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035193
+getValue() (log-likelihood) = -264197.2564035193
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=403 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035195
+getValue() (log-likelihood) = -264197.2564035195
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=404 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351936
+getValue() (log-likelihood) = -264197.25640351936
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=405 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035194
+getValue() (log-likelihood) = -264197.2564035194
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=406 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035195
+getValue() (log-likelihood) = -264197.2564035195
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=407 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351966
+getValue() (log-likelihood) = -264197.25640351966
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=408 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351954
+getValue() (log-likelihood) = -264197.25640351954
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=409 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035197
+getValue() (log-likelihood) = -264197.2564035197
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=410 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351966
+getValue() (log-likelihood) = -264197.25640351966
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=411 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035199
+getValue() (log-likelihood) = -264197.2564035199
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=412 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351983
+getValue() (log-likelihood) = -264197.25640351983
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=413 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352
+getValue() (log-likelihood) = -264197.25640352
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=414 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640351995
+getValue() (log-likelihood) = -264197.25640351995
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=415 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035201
+getValue() (log-likelihood) = -264197.2564035201
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=416 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352024
+getValue() (log-likelihood) = -264197.25640352024
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=417 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035204
+getValue() (log-likelihood) = -264197.2564035204
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=418 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035205
+getValue() (log-likelihood) = -264197.2564035205
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=419 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352035
+getValue() (log-likelihood) = -264197.25640352035
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=420 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352035
+getValue() (log-likelihood) = -264197.25640352035
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=421 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352047
+getValue() (log-likelihood) = -264197.25640352047
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=422 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035203
+getValue() (log-likelihood) = -264197.2564035203
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=423 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352047
+getValue() (log-likelihood) = -264197.25640352047
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=424 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352047
+getValue() (log-likelihood) = -264197.25640352047
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=425 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352047
+getValue() (log-likelihood) = -264197.25640352047
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=426 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035205
+getValue() (log-likelihood) = -264197.2564035205
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=427 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035204
+getValue() (log-likelihood) = -264197.2564035204
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=428 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352065
+getValue() (log-likelihood) = -264197.25640352065
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=429 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352047
+getValue() (log-likelihood) = -264197.25640352047
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=430 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035206
+getValue() (log-likelihood) = -264197.2564035206
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=431 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035205
+getValue() (log-likelihood) = -264197.2564035205
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=432 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=433 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=434 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=435 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=436 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=437 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035206
+getValue() (log-likelihood) = -264197.2564035206
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=438 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=439 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=440 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=441 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=442 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352065
+getValue() (log-likelihood) = -264197.25640352065
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=443 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=444 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=445 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035209
+getValue() (log-likelihood) = -264197.2564035209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=446 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=447 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=448 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=449 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=450 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=451 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=452 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=453 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=454 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=455 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=456 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=457 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=458 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035207
+getValue() (log-likelihood) = -264197.2564035207
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=459 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352094
+getValue() (log-likelihood) = -264197.25640352094
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=460 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403521
+getValue() (log-likelihood) = -264197.256403521
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=461 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035209
+getValue() (log-likelihood) = -264197.2564035209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=462 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352094
+getValue() (log-likelihood) = -264197.25640352094
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=463 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035209
+getValue() (log-likelihood) = -264197.2564035209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=464 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=465 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035209
+getValue() (log-likelihood) = -264197.2564035209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=466 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035209
+getValue() (log-likelihood) = -264197.2564035209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=467 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=468 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035209
+getValue() (log-likelihood) = -264197.2564035209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=469 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=470 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035209
+getValue() (log-likelihood) = -264197.2564035209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=471 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035209
+getValue() (log-likelihood) = -264197.2564035209
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=472 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352094
+getValue() (log-likelihood) = -264197.25640352094
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=473 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=474 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403521
+getValue() (log-likelihood) = -264197.256403521
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=475 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352076
+getValue() (log-likelihood) = -264197.25640352076
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=476 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403521
+getValue() (log-likelihood) = -264197.256403521
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=477 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=478 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352094
+getValue() (log-likelihood) = -264197.25640352094
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=479 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=480 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352105
+getValue() (log-likelihood) = -264197.25640352105
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=481 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035208
+getValue() (log-likelihood) = -264197.2564035208
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=482 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=483 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352094
+getValue() (log-likelihood) = -264197.25640352094
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=484 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=485 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403521
+getValue() (log-likelihood) = -264197.256403521
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=486 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352094
+getValue() (log-likelihood) = -264197.25640352094
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=487 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=488 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.256403521
+getValue() (log-likelihood) = -264197.256403521
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=489 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352117
+getValue() (log-likelihood) = -264197.25640352117
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=490 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=491 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352117
+getValue() (log-likelihood) = -264197.25640352117
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=492 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=493 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=494 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=495 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=496 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352105
+getValue() (log-likelihood) = -264197.25640352105
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=497 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352117
+getValue() (log-likelihood) = -264197.25640352117
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=498 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.2564035211
+getValue() (log-likelihood) = -264197.2564035211
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=499 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+getValue() (observed log-likelihood) = -264197.25640352117
+getValue() (log-likelihood) = -264197.25640352117
+HMM finished one iteration of maximizer, i=0
+Evaluator iteration=500 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505706612957369
+Testing accuracy=NaN
+Model option...ner.model.HMM
