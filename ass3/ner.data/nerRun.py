@@ -9,8 +9,8 @@ def is_number(s):
         return True
     except ValueError:
         return False
-out = open('pos.traindev.feature', 'w')
-for line in open('pos.traindev').readlines():
+out = open('ner.traindev.feature', 'w')
+for line in open('ner.traindev').readlines():
     line = line.strip()
     if line == '':
         out.write('\n');
