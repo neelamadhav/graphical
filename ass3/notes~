@@ -1,0 +1,27 @@
+
+nohup java -cp "/home/madhav/Desktop/ass3/mallet-2.0.7/class:/home/madhav/Desktop/ass3/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --train true --test lab --threads 4  --model-file model --training-proportion 1.0 --iterations 5  outFile.txt &> pos.out &
+
+
+nohup java -cp "/home/madhav/Desktop/ass3/mallet-2.0.7/class:/home/madhav/Desktop/ass3/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --include-input true --model-file model pos.train > pos.train.out
+
+
+Features:
+1. Url
+2. Caps
+3. StartsWithCaps
+4. DATETIME
+5. HashTags
+6. at-mentions
+7. Acronyms
+8. Numerics
+9. Months
+10. WeekDays
+11 Stopwords
+12 Apostropes
+
+
+http://www.isi.edu/integration/courses/csci548_2006/Slides06/mallet.pdf
+
+nohup java -cp "/home/madhav/Desktop/ass3/mallet-2.0.7/class:/home/madhav/Desktop/ass3/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.HMMSimpleTagger --train true --test lab --threads 4  --model-file model --training-proportion 1.0 --iterations 5  outFile.txt &> pos.out &
+
+
