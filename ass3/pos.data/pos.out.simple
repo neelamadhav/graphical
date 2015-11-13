@@ -1,0 +1,4433 @@
+Number of features in training data: 6821
+Training Fraction....1.0
+Number of predicates: 6821
+Labels: O V D A N P , ^ L ~ @ U $ E ! & R # G T M X S Z Y
+Preparing O
+O->O(O) O,O
+O->V(V) O,V
+O->D(D) O,D
+O->A(A) O,A
+O->N(N) O,N
+O->P(P) O,P
+O->,(,) O,,
+O->^(^) O,^
+O->L(L) O,L
+O->~(~) O,~
+O->@(@) O,@
+O->U(U) O,U
+O->$($) O,$
+O->E(E) O,E
+O->!(!) O,!
+O->&(&) O,&
+O->R(R) O,R
+O->#(#) O,#
+O->G(G) O,G
+O->T(T) O,T
+O->M(M) O,M
+O->X(X) O,X
+O->S(S) O,S
+O->Z(Z) O,Z
+O->Y(Y) O,Y
+State #0 "O"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing V
+V->O(O) V,O
+V->V(V) V,V
+V->D(D) V,D
+V->A(A) V,A
+V->N(N) V,N
+V->P(P) V,P
+V->,(,) V,,
+V->^(^) V,^
+V->L(L) V,L
+V->~(~) V,~
+V->@(@) V,@
+V->U(U) V,U
+V->$($) V,$
+V->E(E) V,E
+V->!(!) V,!
+V->&(&) V,&
+V->R(R) V,R
+V->#(#) V,#
+V->G(G) V,G
+V->T(T) V,T
+V->M(M) V,M
+V->X(X) V,X
+V->S(S) V,S
+V->Z(Z) V,Z
+V->Y(Y) V,Y
+State #1 "V"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing D
+D->O(O) D,O
+D->V(V) D,V
+D->D(D) D,D
+D->A(A) D,A
+D->N(N) D,N
+D->P(P) D,P
+D->,(,) D,,
+D->^(^) D,^
+D->L(L) D,L
+D->~(~) D,~
+D->@(@) D,@
+D->U(U) D,U
+D->$($) D,$
+D->E(E) D,E
+D->!(!) D,!
+D->&(&) D,&
+D->R(R) D,R
+D->#(#) D,#
+D->G(G) D,G
+D->T(T) D,T
+D->M(M) D,M
+D->X(X) D,X
+D->S(S) D,S
+D->Z(Z) D,Z
+D->Y(Y) D,Y
+State #2 "D"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing A
+A->O(O) A,O
+A->V(V) A,V
+A->D(D) A,D
+A->A(A) A,A
+A->N(N) A,N
+A->P(P) A,P
+A->,(,) A,,
+A->^(^) A,^
+A->L(L) A,L
+A->~(~) A,~
+A->@(@) A,@
+A->U(U) A,U
+A->$($) A,$
+A->E(E) A,E
+A->!(!) A,!
+A->&(&) A,&
+A->R(R) A,R
+A->#(#) A,#
+A->G(G) A,G
+A->T(T) A,T
+A->M(M) A,M
+A->X(X) A,X
+A->S(S) A,S
+A->Z(Z) A,Z
+A->Y(Y) A,Y
+State #3 "A"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing N
+N->O(O) N,O
+N->V(V) N,V
+N->D(D) N,D
+N->A(A) N,A
+N->N(N) N,N
+N->P(P) N,P
+N->,(,) N,,
+N->^(^) N,^
+N->L(L) N,L
+N->~(~) N,~
+N->@(@) N,@
+N->U(U) N,U
+N->$($) N,$
+N->E(E) N,E
+N->!(!) N,!
+N->&(&) N,&
+N->R(R) N,R
+N->#(#) N,#
+N->G(G) N,G
+N->T(T) N,T
+N->M(M) N,M
+N->X(X) N,X
+N->S(S) N,S
+N->Z(Z) N,Z
+N->Y(Y) N,Y
+State #4 "N"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing P
+P->O(O) P,O
+P->V(V) P,V
+P->D(D) P,D
+P->A(A) P,A
+P->N(N) P,N
+P->P(P) P,P
+P->,(,) P,,
+P->^(^) P,^
+P->L(L) P,L
+P->~(~) P,~
+P->@(@) P,@
+P->U(U) P,U
+P->$($) P,$
+P->E(E) P,E
+P->!(!) P,!
+P->&(&) P,&
+P->R(R) P,R
+P->#(#) P,#
+P->G(G) P,G
+P->T(T) P,T
+P->M(M) P,M
+P->X(X) P,X
+P->S(S) P,S
+P->Z(Z) P,Z
+P->Y(Y) P,Y
+State #5 "P"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing ,
+,->O(O) ,,O
+,->V(V) ,,V
+,->D(D) ,,D
+,->A(A) ,,A
+,->N(N) ,,N
+,->P(P) ,,P
+,->,(,) ,,,
+,->^(^) ,,^
+,->L(L) ,,L
+,->~(~) ,,~
+,->@(@) ,,@
+,->U(U) ,,U
+,->$($) ,,$
+,->E(E) ,,E
+,->!(!) ,,!
+,->&(&) ,,&
+,->R(R) ,,R
+,->#(#) ,,#
+,->G(G) ,,G
+,->T(T) ,,T
+,->M(M) ,,M
+,->X(X) ,,X
+,->S(S) ,,S
+,->Z(Z) ,,Z
+,->Y(Y) ,,Y
+State #6 ","
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing ^
+^->O(O) ^,O
+^->V(V) ^,V
+^->D(D) ^,D
+^->A(A) ^,A
+^->N(N) ^,N
+^->P(P) ^,P
+^->,(,) ^,,
+^->^(^) ^,^
+^->L(L) ^,L
+^->~(~) ^,~
+^->@(@) ^,@
+^->U(U) ^,U
+^->$($) ^,$
+^->E(E) ^,E
+^->!(!) ^,!
+^->&(&) ^,&
+^->R(R) ^,R
+^->#(#) ^,#
+^->G(G) ^,G
+^->T(T) ^,T
+^->M(M) ^,M
+^->X(X) ^,X
+^->S(S) ^,S
+^->Z(Z) ^,Z
+^->Y(Y) ^,Y
+State #7 "^"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing L
+L->O(O) L,O
+L->V(V) L,V
+L->D(D) L,D
+L->A(A) L,A
+L->N(N) L,N
+L->P(P) L,P
+L->,(,) L,,
+L->^(^) L,^
+L->L(L) L,L
+L->~(~) L,~
+L->@(@) L,@
+L->U(U) L,U
+L->$($) L,$
+L->E(E) L,E
+L->!(!) L,!
+L->&(&) L,&
+L->R(R) L,R
+L->#(#) L,#
+L->G(G) L,G
+L->T(T) L,T
+L->M(M) L,M
+L->X(X) L,X
+L->S(S) L,S
+L->Z(Z) L,Z
+L->Y(Y) L,Y
+State #8 "L"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing ~
+~->O(O) ~,O
+~->V(V) ~,V
+~->D(D) ~,D
+~->A(A) ~,A
+~->N(N) ~,N
+~->P(P) ~,P
+~->,(,) ~,,
+~->^(^) ~,^
+~->L(L) ~,L
+~->~(~) ~,~
+~->@(@) ~,@
+~->U(U) ~,U
+~->$($) ~,$
+~->E(E) ~,E
+~->!(!) ~,!
+~->&(&) ~,&
+~->R(R) ~,R
+~->#(#) ~,#
+~->G(G) ~,G
+~->T(T) ~,T
+~->M(M) ~,M
+~->X(X) ~,X
+~->S(S) ~,S
+~->Z(Z) ~,Z
+~->Y(Y) ~,Y
+State #9 "~"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing @
+@->O(O) @,O
+@->V(V) @,V
+@->D(D) @,D
+@->A(A) @,A
+@->N(N) @,N
+@->P(P) @,P
+@->,(,) @,,
+@->^(^) @,^
+@->L(L) @,L
+@->~(~) @,~
+@->@(@) @,@
+@->U(U) @,U
+@->$($) @,$
+@->E(E) @,E
+@->!(!) @,!
+@->&(&) @,&
+@->R(R) @,R
+@->#(#) @,#
+@->G(G) @,G
+@->T(T) @,T
+@->M(M) @,M
+@->X(X) @,X
+@->S(S) @,S
+@->Z(Z) @,Z
+@->Y(Y) @,Y
+State #10 "@"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing U
+U->O(O) U,O
+U->V(V) U,V
+U->D(D) U,D
+U->A(A) U,A
+U->N(N) U,N
+U->P(P) U,P
+U->,(,) U,,
+U->^(^) U,^
+U->L(L) U,L
+U->~(~) U,~
+U->@(@) U,@
+U->U(U) U,U
+U->$($) U,$
+U->E(E) U,E
+U->!(!) U,!
+U->&(&) U,&
+U->R(R) U,R
+U->#(#) U,#
+U->G(G) U,G
+U->T(T) U,T
+U->M(M) U,M
+U->X(X) U,X
+U->S(S) U,S
+U->Z(Z) U,Z
+U->Y(Y) U,Y
+State #11 "U"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing $
+$->O(O) $,O
+$->V(V) $,V
+$->D(D) $,D
+$->A(A) $,A
+$->N(N) $,N
+$->P(P) $,P
+$->,(,) $,,
+$->^(^) $,^
+$->L(L) $,L
+$->~(~) $,~
+$->@(@) $,@
+$->U(U) $,U
+$->$($) $,$
+$->E(E) $,E
+$->!(!) $,!
+$->&(&) $,&
+$->R(R) $,R
+$->#(#) $,#
+$->G(G) $,G
+$->T(T) $,T
+$->M(M) $,M
+$->X(X) $,X
+$->S(S) $,S
+$->Z(Z) $,Z
+$->Y(Y) $,Y
+State #12 "$"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing E
+E->O(O) E,O
+E->V(V) E,V
+E->D(D) E,D
+E->A(A) E,A
+E->N(N) E,N
+E->P(P) E,P
+E->,(,) E,,
+E->^(^) E,^
+E->L(L) E,L
+E->~(~) E,~
+E->@(@) E,@
+E->U(U) E,U
+E->$($) E,$
+E->E(E) E,E
+E->!(!) E,!
+E->&(&) E,&
+E->R(R) E,R
+E->#(#) E,#
+E->G(G) E,G
+E->T(T) E,T
+E->M(M) E,M
+E->X(X) E,X
+E->S(S) E,S
+E->Z(Z) E,Z
+E->Y(Y) E,Y
+State #13 "E"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing !
+!->O(O) !,O
+!->V(V) !,V
+!->D(D) !,D
+!->A(A) !,A
+!->N(N) !,N
+!->P(P) !,P
+!->,(,) !,,
+!->^(^) !,^
+!->L(L) !,L
+!->~(~) !,~
+!->@(@) !,@
+!->U(U) !,U
+!->$($) !,$
+!->E(E) !,E
+!->!(!) !,!
+!->&(&) !,&
+!->R(R) !,R
+!->#(#) !,#
+!->G(G) !,G
+!->T(T) !,T
+!->M(M) !,M
+!->X(X) !,X
+!->S(S) !,S
+!->Z(Z) !,Z
+!->Y(Y) !,Y
+State #14 "!"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing &
+&->O(O) &,O
+&->V(V) &,V
+&->D(D) &,D
+&->A(A) &,A
+&->N(N) &,N
+&->P(P) &,P
+&->,(,) &,,
+&->^(^) &,^
+&->L(L) &,L
+&->~(~) &,~
+&->@(@) &,@
+&->U(U) &,U
+&->$($) &,$
+&->E(E) &,E
+&->!(!) &,!
+&->&(&) &,&
+&->R(R) &,R
+&->#(#) &,#
+&->G(G) &,G
+&->T(T) &,T
+&->M(M) &,M
+&->X(X) &,X
+&->S(S) &,S
+&->Z(Z) &,Z
+&->Y(Y) &,Y
+State #15 "&"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing R
+R->O(O) R,O
+R->V(V) R,V
+R->D(D) R,D
+R->A(A) R,A
+R->N(N) R,N
+R->P(P) R,P
+R->,(,) R,,
+R->^(^) R,^
+R->L(L) R,L
+R->~(~) R,~
+R->@(@) R,@
+R->U(U) R,U
+R->$($) R,$
+R->E(E) R,E
+R->!(!) R,!
+R->&(&) R,&
+R->R(R) R,R
+R->#(#) R,#
+R->G(G) R,G
+R->T(T) R,T
+R->M(M) R,M
+R->X(X) R,X
+R->S(S) R,S
+R->Z(Z) R,Z
+R->Y(Y) R,Y
+State #16 "R"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing #
+#->O(O) #,O
+#->V(V) #,V
+#->D(D) #,D
+#->A(A) #,A
+#->N(N) #,N
+#->P(P) #,P
+#->,(,) #,,
+#->^(^) #,^
+#->L(L) #,L
+#->~(~) #,~
+#->@(@) #,@
+#->U(U) #,U
+#->$($) #,$
+#->E(E) #,E
+#->!(!) #,!
+#->&(&) #,&
+#->R(R) #,R
+#->#(#) #,#
+#->G(G) #,G
+#->T(T) #,T
+#->M(M) #,M
+#->X(X) #,X
+#->S(S) #,S
+#->Z(Z) #,Z
+#->Y(Y) #,Y
+State #17 "#"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing G
+G->O(O) G,O
+G->V(V) G,V
+G->D(D) G,D
+G->A(A) G,A
+G->N(N) G,N
+G->P(P) G,P
+G->,(,) G,,
+G->^(^) G,^
+G->L(L) G,L
+G->~(~) G,~
+G->@(@) G,@
+G->U(U) G,U
+G->$($) G,$
+G->E(E) G,E
+G->!(!) G,!
+G->&(&) G,&
+G->R(R) G,R
+G->#(#) G,#
+G->G(G) G,G
+G->T(T) G,T
+G->M(M) G,M
+G->X(X) G,X
+G->S(S) G,S
+G->Z(Z) G,Z
+G->Y(Y) G,Y
+State #18 "G"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing T
+T->O(O) T,O
+T->V(V) T,V
+T->D(D) T,D
+T->A(A) T,A
+T->N(N) T,N
+T->P(P) T,P
+T->,(,) T,,
+T->^(^) T,^
+T->L(L) T,L
+T->~(~) T,~
+T->@(@) T,@
+T->U(U) T,U
+T->$($) T,$
+T->E(E) T,E
+T->!(!) T,!
+T->&(&) T,&
+T->R(R) T,R
+T->#(#) T,#
+T->G(G) T,G
+T->T(T) T,T
+T->M(M) T,M
+T->X(X) T,X
+T->S(S) T,S
+T->Z(Z) T,Z
+T->Y(Y) T,Y
+State #19 "T"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing M
+M->O(O) M,O
+M->V(V) M,V
+M->D(D) M,D
+M->A(A) M,A
+M->N(N) M,N
+M->P(P) M,P
+M->,(,) M,,
+M->^(^) M,^
+M->L(L) M,L
+M->~(~) M,~
+M->@(@) M,@
+M->U(U) M,U
+M->$($) M,$
+M->E(E) M,E
+M->!(!) M,!
+M->&(&) M,&
+M->R(R) M,R
+M->#(#) M,#
+M->G(G) M,G
+M->T(T) M,T
+M->M(M) M,M
+M->X(X) M,X
+M->S(S) M,S
+M->Z(Z) M,Z
+M->Y(Y) M,Y
+State #20 "M"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing X
+X->O(O) X,O
+X->V(V) X,V
+X->D(D) X,D
+X->A(A) X,A
+X->N(N) X,N
+X->P(P) X,P
+X->,(,) X,,
+X->^(^) X,^
+X->L(L) X,L
+X->~(~) X,~
+X->@(@) X,@
+X->U(U) X,U
+X->$($) X,$
+X->E(E) X,E
+X->!(!) X,!
+X->&(&) X,&
+X->R(R) X,R
+X->#(#) X,#
+X->G(G) X,G
+X->T(T) X,T
+X->M(M) X,M
+X->X(X) X,X
+X->S(S) X,S
+X->Z(Z) X,Z
+X->Y(Y) X,Y
+State #21 "X"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing S
+S->O(O) S,O
+S->V(V) S,V
+S->D(D) S,D
+S->A(A) S,A
+S->N(N) S,N
+S->P(P) S,P
+S->,(,) S,,
+S->^(^) S,^
+S->L(L) S,L
+S->~(~) S,~
+S->@(@) S,@
+S->U(U) S,U
+S->$($) S,$
+S->E(E) S,E
+S->!(!) S,!
+S->&(&) S,&
+S->R(R) S,R
+S->#(#) S,#
+S->G(G) S,G
+S->T(T) S,T
+S->M(M) S,M
+S->X(X) S,X
+S->S(S) S,S
+S->Z(Z) S,Z
+S->Y(Y) S,Y
+State #22 "S"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing Z
+Z->O(O) Z,O
+Z->V(V) Z,V
+Z->D(D) Z,D
+Z->A(A) Z,A
+Z->N(N) Z,N
+Z->P(P) Z,P
+Z->,(,) Z,,
+Z->^(^) Z,^
+Z->L(L) Z,L
+Z->~(~) Z,~
+Z->@(@) Z,@
+Z->U(U) Z,U
+Z->$($) Z,$
+Z->E(E) Z,E
+Z->!(!) Z,!
+Z->&(&) Z,&
+Z->R(R) Z,R
+Z->#(#) Z,#
+Z->G(G) Z,G
+Z->T(T) Z,T
+Z->M(M) Z,M
+Z->X(X) Z,X
+Z->S(S) Z,S
+Z->Z(Z) Z,Z
+Z->Y(Y) Z,Y
+State #23 "Z"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Preparing Y
+Y->O(O) Y,O
+Y->V(V) Y,V
+Y->D(D) Y,D
+Y->A(A) Y,A
+Y->N(N) Y,N
+Y->P(P) Y,P
+Y->,(,) Y,,
+Y->^(^) Y,^
+Y->L(L) Y,L
+Y->~(~) Y,~
+Y->@(@) Y,@
+Y->U(U) Y,U
+Y->$($) Y,$
+Y->E(E) Y,E
+Y->!(!) Y,!
+Y->&(&) Y,&
+Y->R(R) Y,R
+Y->#(#) Y,#
+Y->G(G) Y,G
+Y->T(T) Y,T
+Y->M(M) Y,M
+Y->X(X) Y,X
+Y->S(S) Y,S
+Y->Z(Z) Y,Z
+Y->Y(Y) Y,Y
+State #24 "Y"
+initialWeight=0.0, finalWeight=0.0
+#destinations=25
+-> O
+-> V
+-> D
+-> A
+-> N
+-> P
+-> ,
+-> ^
+-> L
+-> ~
+-> @
+-> U
+-> $
+-> E
+-> !
+-> &
+-> R
+-> #
+-> G
+-> T
+-> M
+-> X
+-> S
+-> Z
+-> Y
+Training on 1327 instances
+Testing on 0 instances
+CRF: Incremental training detected.  Adding weights for some unsupported features...
+CRF weights[O,O] num features = 29
+CRF weights[O,V] num features = 375
+CRF weights[O,D] num features = 21
+CRF weights[O,A] num features = 63
+CRF weights[O,N] num features = 96
+CRF weights[O,P] num features = 34
+CRF weights[O,,] num features = 26
+CRF weights[O,^] num features = 100
+CRF weights[O,L] num features = 27
+CRF weights[O,~] num features = 5
+CRF weights[O,@] num features = 385
+CRF weights[O,U] num features = 9
+CRF weights[O,$] num features = 10
+CRF weights[O,E] num features = 8
+CRF weights[O,!] num features = 64
+CRF weights[O,&] num features = 4
+CRF weights[O,R] num features = 85
+CRF weights[O,#] num features = 23
+CRF weights[O,G] num features = 15
+CRF weights[O,T] num features = 6
+CRF weights[O,M] num features = 2
+CRF weights[O,X] num features = 1
+CRF weights[O,S] num features = 3
+CRF weights[O,Z] num features = 0
+CRF weights[O,Y] num features = 0
+CRF weights[V,O] num features = 51
+CRF weights[V,V] num features = 271
+CRF weights[V,D] num features = 48
+CRF weights[V,A] num features = 132
+CRF weights[V,N] num features = 153
+CRF weights[V,P] num features = 62
+CRF weights[V,,] num features = 30
+CRF weights[V,^] num features = 87
+CRF weights[V,L] num features = 17
+CRF weights[V,~] num features = 3
+CRF weights[V,@] num features = 23
+CRF weights[V,U] num features = 6
+CRF weights[V,$] num features = 28
+CRF weights[V,E] num features = 6
+CRF weights[V,!] num features = 10
+CRF weights[V,&] num features = 7
+CRF weights[V,R] num features = 104
+CRF weights[V,#] num features = 3
+CRF weights[V,G] num features = 10
+CRF weights[V,T] num features = 13
+CRF weights[V,M] num features = 0
+CRF weights[V,X] num features = 1
+CRF weights[V,S] num features = 1
+CRF weights[V,Z] num features = 4
+CRF weights[V,Y] num features = 0
+CRF weights[D,O] num features = 6
+CRF weights[D,V] num features = 9
+CRF weights[D,D] num features = 4
+CRF weights[D,A] num features = 150
+CRF weights[D,N] num features = 541
+CRF weights[D,P] num features = 5
+CRF weights[D,,] num features = 9
+CRF weights[D,^] num features = 94
+CRF weights[D,L] num features = 0
+CRF weights[D,~] num features = 1
+CRF weights[D,@] num features = 2
+CRF weights[D,U] num features = 1
+CRF weights[D,$] num features = 19
+CRF weights[D,E] num features = 0
+CRF weights[D,!] num features = 0
+CRF weights[D,&] num features = 0
+CRF weights[D,R] num features = 11
+CRF weights[D,#] num features = 0
+CRF weights[D,G] num features = 9
+CRF weights[D,T] num features = 0
+CRF weights[D,M] num features = 0
+CRF weights[D,X] num features = 0
+CRF weights[D,S] num features = 8
+CRF weights[D,Z] num features = 1
+CRF weights[D,Y] num features = 0
+CRF weights[A,O] num features = 8
+CRF weights[A,V] num features = 11
+CRF weights[A,D] num features = 5
+CRF weights[A,A] num features = 38
+CRF weights[A,N] num features = 381
+CRF weights[A,P] num features = 31
+CRF weights[A,,] num features = 25
+CRF weights[A,^] num features = 40
+CRF weights[A,L] num features = 5
+CRF weights[A,~] num features = 3
+CRF weights[A,@] num features = 4
+CRF weights[A,U] num features = 2
+CRF weights[A,$] num features = 14
+CRF weights[A,E] num features = 5
+CRF weights[A,!] num features = 4
+CRF weights[A,&] num features = 6
+CRF weights[A,R] num features = 18
+CRF weights[A,#] num features = 1
+CRF weights[A,G] num features = 7
+CRF weights[A,T] num features = 0
+CRF weights[A,M] num features = 0
+CRF weights[A,X] num features = 0
+CRF weights[A,S] num features = 1
+CRF weights[A,Z] num features = 0
+CRF weights[A,Y] num features = 0
+CRF weights[N,O] num features = 19
+CRF weights[N,V] num features = 180
+CRF weights[N,D] num features = 14
+CRF weights[N,A] num features = 24
+CRF weights[N,N] num features = 329
+CRF weights[N,P] num features = 74
+CRF weights[N,,] num features = 47
+CRF weights[N,^] num features = 34
+CRF weights[N,L] num features = 9
+CRF weights[N,~] num features = 6
+CRF weights[N,@] num features = 17
+CRF weights[N,U] num features = 42
+CRF weights[N,$] num features = 20
+CRF weights[N,E] num features = 18
+CRF weights[N,!] num features = 16
+CRF weights[N,&] num features = 12
+CRF weights[N,R] num features = 50
+CRF weights[N,#] num features = 9
+CRF weights[N,G] num features = 21
+CRF weights[N,T] num features = 4
+CRF weights[N,M] num features = 0
+CRF weights[N,X] num features = 0
+CRF weights[N,S] num features = 1
+CRF weights[N,Z] num features = 1
+CRF weights[N,Y] num features = 0
+CRF weights[P,O] num features = 37
+CRF weights[P,V] num features = 178
+CRF weights[P,D] num features = 46
+CRF weights[P,A] num features = 55
+CRF weights[P,N] num features = 173
+CRF weights[P,P] num features = 11
+CRF weights[P,,] num features = 16
+CRF weights[P,^] num features = 213
+CRF weights[P,L] num features = 15
+CRF weights[P,~] num features = 2
+CRF weights[P,@] num features = 37
+CRF weights[P,U] num features = 5
+CRF weights[P,$] num features = 47
+CRF weights[P,E] num features = 1
+CRF weights[P,!] num features = 2
+CRF weights[P,&] num features = 2
+CRF weights[P,R] num features = 20
+CRF weights[P,#] num features = 2
+CRF weights[P,G] num features = 9
+CRF weights[P,T] num features = 0
+CRF weights[P,M] num features = 0
+CRF weights[P,X] num features = 3
+CRF weights[P,S] num features = 5
+CRF weights[P,Z] num features = 10
+CRF weights[P,Y] num features = 0
+CRF weights[,,O] num features = 39
+CRF weights[,,V] num features = 178
+CRF weights[,,D] num features = 27
+CRF weights[,,A] num features = 58
+CRF weights[,,N] num features = 117
+CRF weights[,,P] num features = 29
+CRF weights[,,,] num features = 19
+CRF weights[,,^] num features = 115
+CRF weights[,,L] num features = 46
+CRF weights[,,~] num features = 15
+CRF weights[,,@] num features = 29
+CRF weights[,,U] num features = 115
+CRF weights[,,$] num features = 37
+CRF weights[,,E] num features = 34
+CRF weights[,,!] num features = 78
+CRF weights[,,&] num features = 14
+CRF weights[,,R] num features = 54
+CRF weights[,,#] num features = 48
+CRF weights[,,G] num features = 28
+CRF weights[,,T] num features = 0
+CRF weights[,,M] num features = 0
+CRF weights[,,X] num features = 4
+CRF weights[,,S] num features = 1
+CRF weights[,,Z] num features = 1
+CRF weights[,,Y] num features = 1
+CRF weights[^,O] num features = 8
+CRF weights[^,V] num features = 102
+CRF weights[^,D] num features = 5
+CRF weights[^,A] num features = 18
+CRF weights[^,N] num features = 129
+CRF weights[^,P] num features = 32
+CRF weights[^,,] num features = 36
+CRF weights[^,^] num features = 260
+CRF weights[^,L] num features = 3
+CRF weights[^,~] num features = 3
+CRF weights[^,@] num features = 3
+CRF weights[^,U] num features = 27
+CRF weights[^,$] num features = 30
+CRF weights[^,E] num features = 7
+CRF weights[^,!] num features = 8
+CRF weights[^,&] num features = 8
+CRF weights[^,R] num features = 15
+CRF weights[^,#] num features = 2
+CRF weights[^,G] num features = 8
+CRF weights[^,T] num features = 1
+CRF weights[^,M] num features = 0
+CRF weights[^,X] num features = 0
+CRF weights[^,S] num features = 3
+CRF weights[^,Z] num features = 11
+CRF weights[^,Y] num features = 0
+CRF weights[L,O] num features = 5
+CRF weights[L,V] num features = 70
+CRF weights[L,D] num features = 10
+CRF weights[L,A] num features = 45
+CRF weights[L,N] num features = 13
+CRF weights[L,P] num features = 13
+CRF weights[L,,] num features = 1
+CRF weights[L,^] num features = 5
+CRF weights[L,L] num features = 1
+CRF weights[L,~] num features = 0
+CRF weights[L,@] num features = 0
+CRF weights[L,U] num features = 0
+CRF weights[L,$] num features = 6
+CRF weights[L,E] num features = 0
+CRF weights[L,!] num features = 0
+CRF weights[L,&] num features = 0
+CRF weights[L,R] num features = 29
+CRF weights[L,#] num features = 0
+CRF weights[L,G] num features = 3
+CRF weights[L,T] num features = 1
+CRF weights[L,M] num features = 0
+CRF weights[L,X] num features = 1
+CRF weights[L,S] num features = 0
+CRF weights[L,Z] num features = 0
+CRF weights[L,Y] num features = 0
+CRF weights[~,O] num features = 13
+CRF weights[~,V] num features = 28
+CRF weights[~,D] num features = 8
+CRF weights[~,A] num features = 10
+CRF weights[~,N] num features = 25
+CRF weights[~,P] num features = 7
+CRF weights[~,,] num features = 7
+CRF weights[~,^] num features = 37
+CRF weights[~,L] num features = 8
+CRF weights[~,~] num features = 3
+CRF weights[~,@] num features = 327
+CRF weights[~,U] num features = 49
+CRF weights[~,$] num features = 6
+CRF weights[~,E] num features = 4
+CRF weights[~,!] num features = 19
+CRF weights[~,&] num features = 2
+CRF weights[~,R] num features = 12
+CRF weights[~,#] num features = 10
+CRF weights[~,G] num features = 2
+CRF weights[~,T] num features = 0
+CRF weights[~,M] num features = 0
+CRF weights[~,X] num features = 1
+CRF weights[~,S] num features = 0
+CRF weights[~,Z] num features = 1
+CRF weights[~,Y] num features = 0
+CRF weights[@,O] num features = 24
+CRF weights[@,V] num features = 57
+CRF weights[@,D] num features = 11
+CRF weights[@,A] num features = 20
+CRF weights[@,N] num features = 35
+CRF weights[@,P] num features = 15
+CRF weights[@,,] num features = 18
+CRF weights[@,^] num features = 25
+CRF weights[@,L] num features = 14
+CRF weights[@,~] num features = 3
+CRF weights[@,@] num features = 86
+CRF weights[@,U] num features = 11
+CRF weights[@,$] num features = 4
+CRF weights[@,E] num features = 9
+CRF weights[@,!] num features = 71
+CRF weights[@,&] num features = 6
+CRF weights[@,R] num features = 25
+CRF weights[@,#] num features = 5
+CRF weights[@,G] num features = 9
+CRF weights[@,T] num features = 0
+CRF weights[@,M] num features = 0
+CRF weights[@,X] num features = 2
+CRF weights[@,S] num features = 0
+CRF weights[@,Z] num features = 0
+CRF weights[@,Y] num features = 0
+CRF weights[U,O] num features = 1
+CRF weights[U,V] num features = 5
+CRF weights[U,D] num features = 0
+CRF weights[U,A] num features = 2
+CRF weights[U,N] num features = 0
+CRF weights[U,P] num features = 1
+CRF weights[U,,] num features = 7
+CRF weights[U,^] num features = 2
+CRF weights[U,L] num features = 0
+CRF weights[U,~] num features = 3
+CRF weights[U,@] num features = 2
+CRF weights[U,U] num features = 5
+CRF weights[U,$] num features = 2
+CRF weights[U,E] num features = 2
+CRF weights[U,!] num features = 3
+CRF weights[U,&] num features = 2
+CRF weights[U,R] num features = 1
+CRF weights[U,#] num features = 21
+CRF weights[U,G] num features = 3
+CRF weights[U,T] num features = 0
+CRF weights[U,M] num features = 0
+CRF weights[U,X] num features = 0
+CRF weights[U,S] num features = 0
+CRF weights[U,Z] num features = 0
+CRF weights[U,Y] num features = 0
+CRF weights[$,O] num features = 4
+CRF weights[$,V] num features = 7
+CRF weights[$,D] num features = 0
+CRF weights[$,A] num features = 11
+CRF weights[$,N] num features = 72
+CRF weights[$,P] num features = 20
+CRF weights[$,,] num features = 19
+CRF weights[$,^] num features = 13
+CRF weights[$,L] num features = 1
+CRF weights[$,~] num features = 1
+CRF weights[$,@] num features = 0
+CRF weights[$,U] num features = 3
+CRF weights[$,$] num features = 6
+CRF weights[$,E] num features = 1
+CRF weights[$,!] num features = 4
+CRF weights[$,&] num features = 4
+CRF weights[$,R] num features = 6
+CRF weights[$,#] num features = 0
+CRF weights[$,G] num features = 4
+CRF weights[$,T] num features = 1
+CRF weights[$,M] num features = 1
+CRF weights[$,X] num features = 0
+CRF weights[$,S] num features = 0
+CRF weights[$,Z] num features = 0
+CRF weights[$,Y] num features = 0
+CRF weights[E,O] num features = 3
+CRF weights[E,V] num features = 8
+CRF weights[E,D] num features = 1
+CRF weights[E,A] num features = 0
+CRF weights[E,N] num features = 2
+CRF weights[E,P] num features = 3
+CRF weights[E,,] num features = 7
+CRF weights[E,^] num features = 1
+CRF weights[E,L] num features = 5
+CRF weights[E,~] num features = 1
+CRF weights[E,@] num features = 0
+CRF weights[E,U] num features = 6
+CRF weights[E,$] num features = 1
+CRF weights[E,E] num features = 17
+CRF weights[E,!] num features = 10
+CRF weights[E,&] num features = 2
+CRF weights[E,R] num features = 2
+CRF weights[E,#] num features = 2
+CRF weights[E,G] num features = 3
+CRF weights[E,T] num features = 0
+CRF weights[E,M] num features = 0
+CRF weights[E,X] num features = 0
+CRF weights[E,S] num features = 0
+CRF weights[E,Z] num features = 0
+CRF weights[E,Y] num features = 0
+CRF weights[!,O] num features = 16
+CRF weights[!,V] num features = 15
+CRF weights[!,D] num features = 6
+CRF weights[!,A] num features = 11
+CRF weights[!,N] num features = 16
+CRF weights[!,P] num features = 6
+CRF weights[!,,] num features = 24
+CRF weights[!,^] num features = 15
+CRF weights[!,L] num features = 10
+CRF weights[!,~] num features = 5
+CRF weights[!,@] num features = 7
+CRF weights[!,U] num features = 4
+CRF weights[!,$] num features = 1
+CRF weights[!,E] num features = 8
+CRF weights[!,!] num features = 34
+CRF weights[!,&] num features = 1
+CRF weights[!,R] num features = 11
+CRF weights[!,#] num features = 3
+CRF weights[!,G] num features = 2
+CRF weights[!,T] num features = 0
+CRF weights[!,M] num features = 0
+CRF weights[!,X] num features = 0
+CRF weights[!,S] num features = 0
+CRF weights[!,Z] num features = 0
+CRF weights[!,Y] num features = 0
+CRF weights[&,O] num features = 20
+CRF weights[&,V] num features = 63
+CRF weights[&,D] num features = 9
+CRF weights[&,A] num features = 20
+CRF weights[&,N] num features = 49
+CRF weights[&,P] num features = 8
+CRF weights[&,,] num features = 3
+CRF weights[&,^] num features = 31
+CRF weights[&,L] num features = 12
+CRF weights[&,~] num features = 0
+CRF weights[&,@] num features = 7
+CRF weights[&,U] num features = 2
+CRF weights[&,$] num features = 4
+CRF weights[&,E] num features = 0
+CRF weights[&,!] num features = 4
+CRF weights[&,&] num features = 0
+CRF weights[&,R] num features = 18
+CRF weights[&,#] num features = 0
+CRF weights[&,G] num features = 1
+CRF weights[&,T] num features = 0
+CRF weights[&,M] num features = 0
+CRF weights[&,X] num features = 0
+CRF weights[&,S] num features = 0
+CRF weights[&,Z] num features = 0
+CRF weights[&,Y] num features = 0
+CRF weights[R,O] num features = 19
+CRF weights[R,V] num features = 171
+CRF weights[R,D] num features = 10
+CRF weights[R,A] num features = 103
+CRF weights[R,N] num features = 15
+CRF weights[R,P] num features = 31
+CRF weights[R,,] num features = 23
+CRF weights[R,^] num features = 9
+CRF weights[R,L] num features = 14
+CRF weights[R,~] num features = 2
+CRF weights[R,@] num features = 1
+CRF weights[R,U] num features = 3
+CRF weights[R,$] num features = 4
+CRF weights[R,E] num features = 9
+CRF weights[R,!] num features = 4
+CRF weights[R,&] num features = 3
+CRF weights[R,R] num features = 44
+CRF weights[R,#] num features = 2
+CRF weights[R,G] num features = 5
+CRF weights[R,T] num features = 0
+CRF weights[R,M] num features = 0
+CRF weights[R,X] num features = 0
+CRF weights[R,S] num features = 0
+CRF weights[R,Z] num features = 1
+CRF weights[R,Y] num features = 0
+CRF weights[#,O] num features = 6
+CRF weights[#,V] num features = 4
+CRF weights[#,D] num features = 3
+CRF weights[#,A] num features = 1
+CRF weights[#,N] num features = 3
+CRF weights[#,P] num features = 3
+CRF weights[#,,] num features = 8
+CRF weights[#,^] num features = 4
+CRF weights[#,L] num features = 0
+CRF weights[#,~] num features = 6
+CRF weights[#,@] num features = 1
+CRF weights[#,U] num features = 3
+CRF weights[#,$] num features = 2
+CRF weights[#,E] num features = 1
+CRF weights[#,!] num features = 2
+CRF weights[#,&] num features = 0
+CRF weights[#,R] num features = 1
+CRF weights[#,#] num features = 55
+CRF weights[#,G] num features = 5
+CRF weights[#,T] num features = 0
+CRF weights[#,M] num features = 0
+CRF weights[#,X] num features = 0
+CRF weights[#,S] num features = 0
+CRF weights[#,Z] num features = 0
+CRF weights[#,Y] num features = 0
+CRF weights[G,O] num features = 6
+CRF weights[G,V] num features = 7
+CRF weights[G,D] num features = 4
+CRF weights[G,A] num features = 8
+CRF weights[G,N] num features = 11
+CRF weights[G,P] num features = 3
+CRF weights[G,,] num features = 15
+CRF weights[G,^] num features = 18
+CRF weights[G,L] num features = 0
+CRF weights[G,~] num features = 6
+CRF weights[G,@] num features = 8
+CRF weights[G,U] num features = 18
+CRF weights[G,$] num features = 4
+CRF weights[G,E] num features = 2
+CRF weights[G,!] num features = 4
+CRF weights[G,&] num features = 2
+CRF weights[G,R] num features = 3
+CRF weights[G,#] num features = 0
+CRF weights[G,G] num features = 15
+CRF weights[G,T] num features = 0
+CRF weights[G,M] num features = 0
+CRF weights[G,X] num features = 0
+CRF weights[G,S] num features = 0
+CRF weights[G,Z] num features = 0
+CRF weights[G,Y] num features = 0
+CRF weights[T,O] num features = 3
+CRF weights[T,V] num features = 5
+CRF weights[T,D] num features = 7
+CRF weights[T,A] num features = 3
+CRF weights[T,N] num features = 10
+CRF weights[T,P] num features = 13
+CRF weights[T,,] num features = 10
+CRF weights[T,^] num features = 8
+CRF weights[T,L] num features = 1
+CRF weights[T,~] num features = 0
+CRF weights[T,@] num features = 1
+CRF weights[T,U] num features = 0
+CRF weights[T,$] num features = 0
+CRF weights[T,E] num features = 1
+CRF weights[T,!] num features = 1
+CRF weights[T,&] num features = 2
+CRF weights[T,R] num features = 8
+CRF weights[T,#] num features = 0
+CRF weights[T,G] num features = 2
+CRF weights[T,T] num features = 0
+CRF weights[T,M] num features = 0
+CRF weights[T,X] num features = 0
+CRF weights[T,S] num features = 0
+CRF weights[T,Z] num features = 0
+CRF weights[T,Y] num features = 0
+CRF weights[M,O] num features = 0
+CRF weights[M,V] num features = 2
+CRF weights[M,D] num features = 0
+CRF weights[M,A] num features = 1
+CRF weights[M,N] num features = 0
+CRF weights[M,P] num features = 0
+CRF weights[M,,] num features = 0
+CRF weights[M,^] num features = 0
+CRF weights[M,L] num features = 0
+CRF weights[M,~] num features = 0
+CRF weights[M,@] num features = 0
+CRF weights[M,U] num features = 0
+CRF weights[M,$] num features = 0
+CRF weights[M,E] num features = 0
+CRF weights[M,!] num features = 0
+CRF weights[M,&] num features = 0
+CRF weights[M,R] num features = 0
+CRF weights[M,#] num features = 0
+CRF weights[M,G] num features = 0
+CRF weights[M,T] num features = 0
+CRF weights[M,M] num features = 0
+CRF weights[M,X] num features = 0
+CRF weights[M,S] num features = 0
+CRF weights[M,Z] num features = 0
+CRF weights[M,Y] num features = 0
+CRF weights[X,O] num features = 0
+CRF weights[X,V] num features = 4
+CRF weights[X,D] num features = 5
+CRF weights[X,A] num features = 0
+CRF weights[X,N] num features = 0
+CRF weights[X,P] num features = 0
+CRF weights[X,,] num features = 1
+CRF weights[X,^] num features = 0
+CRF weights[X,L] num features = 0
+CRF weights[X,~] num features = 0
+CRF weights[X,@] num features = 0
+CRF weights[X,U] num features = 0
+CRF weights[X,$] num features = 0
+CRF weights[X,E] num features = 0
+CRF weights[X,!] num features = 0
+CRF weights[X,&] num features = 0
+CRF weights[X,R] num features = 0
+CRF weights[X,#] num features = 0
+CRF weights[X,G] num features = 0
+CRF weights[X,T] num features = 0
+CRF weights[X,M] num features = 0
+CRF weights[X,X] num features = 0
+CRF weights[X,S] num features = 0
+CRF weights[X,Z] num features = 0
+CRF weights[X,Y] num features = 0
+CRF weights[S,O] num features = 0
+CRF weights[S,V] num features = 0
+CRF weights[S,D] num features = 0
+CRF weights[S,A] num features = 3
+CRF weights[S,N] num features = 16
+CRF weights[S,P] num features = 0
+CRF weights[S,,] num features = 1
+CRF weights[S,^] num features = 1
+CRF weights[S,L] num features = 0
+CRF weights[S,~] num features = 0
+CRF weights[S,@] num features = 1
+CRF weights[S,U] num features = 0
+CRF weights[S,$] num features = 1
+CRF weights[S,E] num features = 0
+CRF weights[S,!] num features = 0
+CRF weights[S,&] num features = 0
+CRF weights[S,R] num features = 0
+CRF weights[S,#] num features = 0
+CRF weights[S,G] num features = 0
+CRF weights[S,T] num features = 0
+CRF weights[S,M] num features = 0
+CRF weights[S,X] num features = 0
+CRF weights[S,S] num features = 0
+CRF weights[S,Z] num features = 0
+CRF weights[S,Y] num features = 0
+CRF weights[Z,O] num features = 0
+CRF weights[Z,V] num features = 2
+CRF weights[Z,D] num features = 0
+CRF weights[Z,A] num features = 7
+CRF weights[Z,N] num features = 12
+CRF weights[Z,P] num features = 1
+CRF weights[Z,,] num features = 2
+CRF weights[Z,^] num features = 6
+CRF weights[Z,L] num features = 0
+CRF weights[Z,~] num features = 0
+CRF weights[Z,@] num features = 0
+CRF weights[Z,U] num features = 0
+CRF weights[Z,$] num features = 0
+CRF weights[Z,E] num features = 0
+CRF weights[Z,!] num features = 0
+CRF weights[Z,&] num features = 0
+CRF weights[Z,R] num features = 0
+CRF weights[Z,#] num features = 0
+CRF weights[Z,G] num features = 0
+CRF weights[Z,T] num features = 0
+CRF weights[Z,M] num features = 0
+CRF weights[Z,X] num features = 0
+CRF weights[Z,S] num features = 0
+CRF weights[Z,Z] num features = 0
+CRF weights[Z,Y] num features = 0
+CRF weights[Y,O] num features = 0
+CRF weights[Y,V] num features = 0
+CRF weights[Y,D] num features = 2
+CRF weights[Y,A] num features = 0
+CRF weights[Y,N] num features = 0
+CRF weights[Y,P] num features = 0
+CRF weights[Y,,] num features = 0
+CRF weights[Y,^] num features = 0
+CRF weights[Y,L] num features = 0
+CRF weights[Y,~] num features = 0
+CRF weights[Y,@] num features = 0
+CRF weights[Y,U] num features = 0
+CRF weights[Y,$] num features = 0
+CRF weights[Y,E] num features = 0
+CRF weights[Y,!] num features = 0
+CRF weights[Y,&] num features = 0
+CRF weights[Y,R] num features = 0
+CRF weights[Y,#] num features = 0
+CRF weights[Y,G] num features = 0
+CRF weights[Y,T] num features = 0
+CRF weights[Y,M] num features = 0
+CRF weights[Y,X] num features = 0
+CRF weights[Y,S] num features = 0
+CRF weights[Y,Z] num features = 0
+CRF weights[Y,Y] num features = 0
+Number of weights = 11057
+Gathering constraints...
+Creating 4 threads for updating gradient...
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-62581.38378708753
+getValue() (loglikelihood, optimizable by label likelihood) =-60286.38823762411
+getValue() (loglikelihood, optimizable by label likelihood) =-164050.0992090645
+getValue() (loglikelihood, optimizable by label likelihood) =-52968.22543187818
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=1 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.18866371772451393
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-48613.582752011454
+getValue() (loglikelihood, optimizable by label likelihood) =-41935.82864026627
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=2 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.09505194938792305
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-40870.40611972612
+getValue() (loglikelihood, optimizable by label likelihood) =-39850.96879139101
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=3 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.31092480197510547
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-38939.8717054461
+getValue() (loglikelihood, optimizable by label likelihood) =-38563.66828407634
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=4 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.33952268285155845
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-38070.493820390664
+getValue() (loglikelihood, optimizable by label likelihood) =-34011.60120562717
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=5 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.4275280320954634
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-33592.741986472705
+getValue() (loglikelihood, optimizable by label likelihood) =-33224.722748768654
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=6 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.43303158111305423
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-32951.56419640889
+getValue() (loglikelihood, optimizable by label likelihood) =-32464.80228783634
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=7 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.4489250077152556
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-32189.250569077893
+getValue() (loglikelihood, optimizable by label likelihood) =-32020.729318138146
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=8 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.4614751568768645
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-31791.05285941062
+getValue() (loglikelihood, optimizable by label likelihood) =-31336.678277011473
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=9 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.4716078592737373
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-31073.468956892655
+getValue() (loglikelihood, optimizable by label likelihood) =-30942.905076264276
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=10 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.4837979631725131
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-30730.67453081769
+getValue() (loglikelihood, optimizable by label likelihood) =-30241.085360921803
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=11 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.4952165415080753
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-29976.805934578762
+getValue() (loglikelihood, optimizable by label likelihood) =-29871.38875502273
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=12 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.5090525666083736
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-29671.376916264446
+getValue() (loglikelihood, optimizable by label likelihood) =-29111.01661086602
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=13 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.5135274148750129
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-28833.306391593822
+getValue() (loglikelihood, optimizable by label likelihood) =-28747.763579136874
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=14 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.529215101327024
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-28559.2715348766
+getValue() (loglikelihood, optimizable by label likelihood) =-27897.304098655415
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=15 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.5329698590679971
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-27596.459329432033
+getValue() (loglikelihood, optimizable by label likelihood) =-27527.027473827966
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=16 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.5529266536364571
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-27350.83432066274
+getValue() (loglikelihood, optimizable by label likelihood) =-26564.984486766785
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=17 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.5541096595000514
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-26231.67763599693
+getValue() (loglikelihood, optimizable by label likelihood) =-26175.278745161955
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=18 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.5772039913589136
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-26011.81232944892
+getValue() (loglikelihood, optimizable by label likelihood) =-25056.00388845473
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=19 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.5795185680485547
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-24677.670778832973
+getValue() (loglikelihood, optimizable by label likelihood) =-24629.530993412198
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=20 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6070877481740562
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-24481.19411430558
+getValue() (loglikelihood, optimizable by label likelihood) =-23479.955208132127
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=21 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.615265919144121
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-23130.929471445088
+getValue() (loglikelihood, optimizable by label likelihood) =-23077.943028276128
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=22 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6321880464972739
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-22955.09385324416
+getValue() (loglikelihood, optimizable by label likelihood) =-22638.91118170174
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=23 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6359428042382471
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-22503.678763468815
+getValue() (loglikelihood, optimizable by label likelihood) =-22432.545020074027
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=24 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6411891780680999
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-22338.97533078546
+getValue() (loglikelihood, optimizable by label likelihood) =-22205.145729449392
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=25 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6446867606213352
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-22142.86925971312
+getValue() (loglikelihood, optimizable by label likelihood) =-22071.15775543306
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=26 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6464869869355004
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-21991.868384627436
+getValue() (loglikelihood, optimizable by label likelihood) =-21887.92714807846
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=27 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6518876658779961
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-21838.323759984087
+getValue() (loglikelihood, optimizable by label likelihood) =-21764.54254843805
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=28 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6518362308404485
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-21697.55450765424
+getValue() (loglikelihood, optimizable by label likelihood) =-21610.84501374308
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=29 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6595514864725851
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-21564.87312524784
+getValue() (loglikelihood, optimizable by label likelihood) =-21489.22093818903
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=30 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6562596440695402
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-21432.862195914193
+getValue() (loglikelihood, optimizable by label likelihood) =-21354.55383829101
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=31 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6656208209031993
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-21305.355408441323
+getValue() (loglikelihood, optimizable by label likelihood) =-21228.01858343916
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=32 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6631519391009155
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-21179.57308808242
+getValue() (loglikelihood, optimizable by label likelihood) =-21104.880994082952
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=33 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6732332064602408
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-21050.618209501765
+getValue() (loglikelihood, optimizable by label likelihood) =-20970.689606017404
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=34 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6664952165415081
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-20927.670529129467
+getValue() (loglikelihood, optimizable by label likelihood) =-20854.557329078194
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=35 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6785310153276412
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-20796.680454599293
+getValue() (loglikelihood, optimizable by label likelihood) =-20714.279505126935
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=36 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6731817714226931
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-20675.092263478964
+getValue() (loglikelihood, optimizable by label likelihood) =-20602.70980932697
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=37 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.685011830058636
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-20544.13323739115
+getValue() (loglikelihood, optimizable by label likelihood) =-20461.295344678845
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=38 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6783767102149985
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-20425.36102096779
+getValue() (loglikelihood, optimizable by label likelihood) =-20353.272267237335
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=39 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6898467235881082
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-20296.757501497497
+getValue() (loglikelihood, optimizable by label likelihood) =-20215.900165594827
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=40 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6849089599835407
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-20182.891779448924
+getValue() (loglikelihood, optimizable by label likelihood) =-20110.938408314676
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=41 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6951445324555087
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-20058.20206077536
+getValue() (loglikelihood, optimizable by label likelihood) =-19980.4411119985
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=42 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.6904639440386792
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19949.69925448056
+getValue() (loglikelihood, optimizable by label likelihood) =-19877.976486924228
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=43 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.700339471247814
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19829.64571859297
+getValue() (loglikelihood, optimizable by label likelihood) =-19754.81259487819
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=44 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.694990227342866
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19725.528099703828
+getValue() (loglikelihood, optimizable by label likelihood) =-19654.221248728132
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=45 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7048657545520008
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19610.184426559703
+getValue() (loglikelihood, optimizable by label likelihood) =-19537.60367972561
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=46 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.700339471247814
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19509.191378828007
+getValue() (loglikelihood, optimizable by label likelihood) =-19438.43556011642
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=47 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7084147721427837
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19398.214075571726
+getValue() (loglikelihood, optimizable by label likelihood) =-19327.228968950956
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=48 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.704968624627096
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19299.463686585947
+getValue() (loglikelihood, optimizable by label likelihood) =-19229.310786899525
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=49 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7131467955971608
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19192.328971207222
+getValue() (loglikelihood, optimizable by label likelihood) =-19122.472614956267
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=50 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7113980043205431
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-19095.3975512228
+getValue() (loglikelihood, optimizable by label likelihood) =-19025.844462317866
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=51 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.719216130027775
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18991.579661758027
+getValue() (loglikelihood, optimizable by label likelihood) =-18922.56817292874
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=52 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7159242876247299
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18896.335863642154
+getValue() (loglikelihood, optimizable by label likelihood) =-18827.35693161018
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=53 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.723948153482152
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18795.39085500499
+getValue() (loglikelihood, optimizable by label likelihood) =-18727.066283754222
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=54 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7206048760415595
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18701.827658729275
+getValue() (loglikelihood, optimizable by label likelihood) =-18633.39189858777
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=55 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7281143915235058
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18603.407209634384
+getValue() (loglikelihood, optimizable by label likelihood) =-18535.684296154686
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=56 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7246682440078182
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18511.546402110675
+getValue() (loglikelihood, optimizable by label likelihood) =-18443.623510901252
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=57 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7321263244522168
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18415.385304032483
+getValue() (loglikelihood, optimizable by label likelihood) =-18348.216077882706
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=58 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7302232280629565
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18325.238165817213
+getValue() (loglikelihood, optimizable by label likelihood) =-18257.80047974329
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=59 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7359839522682852
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18231.139349825615
+getValue() (loglikelihood, optimizable by label likelihood) =-18164.493209798653
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=60 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7348523814422384
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18142.694522461272
+getValue() (loglikelihood, optimizable by label likelihood) =-18075.718207484228
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=61 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7397387100092583
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-18050.51614401283
+getValue() (loglikelihood, optimizable by label likelihood) =-17984.36950294833
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=62 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7393786647464252
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17963.73888703438
+getValue() (loglikelihood, optimizable by label likelihood) =-17897.204760039687
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=63 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7432877276000411
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17873.382094307173
+getValue() (loglikelihood, optimizable by label likelihood) =-17807.713321035044
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=64 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7438020779755169
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17788.218808922873
+getValue() (loglikelihood, optimizable by label likelihood) =-17722.112419801866
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=65 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7466310050406337
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17699.61535855832
+getValue() (loglikelihood, optimizable by label likelihood) =-17634.402734142255
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=66 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7477111408291328
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17616.000679098524
+getValue() (loglikelihood, optimizable by label likelihood) =-17550.311517879498
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=67 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7516202036827487
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17529.10088222648
+getValue() (loglikelihood, optimizable by label likelihood) =-17464.32234662809
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=68 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7511572883448205
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17446.96551905742
+getValue() (loglikelihood, optimizable by label likelihood) =-17381.685572529906
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=69 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7557350066865549
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17361.727626318494
+getValue() (loglikelihood, optimizable by label likelihood) =-17297.361525049462
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=70 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7547063059356033
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17281.00550477634
+getValue() (loglikelihood, optimizable by label likelihood) =-17216.127578251293
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=71 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7596440695401707
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17197.387582767573
+getValue() (loglikelihood, optimizable by label likelihood) =-17133.413806846052
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=72 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7588211089394096
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17118.021196155987
+getValue() (loglikelihood, optimizable by label likelihood) =-17053.537420433335
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=73 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7648904433700237
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-17035.97609590881
+getValue() (loglikelihood, optimizable by label likelihood) =-16972.37713720731
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=74 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7614957308918836
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16957.919445993364
+getValue() (loglikelihood, optimizable by label likelihood) =-16893.820272382527
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=75 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7679765456228783
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16877.392892330834
+getValue() (loglikelihood, optimizable by label likelihood) =-16814.154485853505
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=76 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7663306244213558
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16800.61189552579
+getValue() (loglikelihood, optimizable by label likelihood) =-16736.885715874665
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=77 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7714741281761136
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16721.54322532681
+getValue() (loglikelihood, optimizable by label likelihood) =-16658.654427432408
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=78 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.769725336899496
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16646.01394418776
+getValue() (loglikelihood, optimizable by label likelihood) =-16582.64731308036
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=79 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7751260158419916
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16568.338688759126
+getValue() (loglikelihood, optimizable by label likelihood) =-16505.791416549957
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=80 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7727600041148031
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16494.044114654247
+getValue() (loglikelihood, optimizable by label likelihood) =-16431.02242880778
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=81 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7785207283201316
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16417.697482650317
+getValue() (loglikelihood, optimizable by label likelihood) =-16355.485676196357
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=82 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7766176319308713
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16344.623771260816
+getValue() (loglikelihood, optimizable by label likelihood) =-16281.932190280208
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=83 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7816582656105339
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16269.544128411082
+getValue() (loglikelihood, optimizable by label likelihood) =-16207.662767531907
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=84 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7804238247093921
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16197.677149545561
+getValue() (loglikelihood, optimizable by label likelihood) =-16135.301525268527
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=85 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7852587182388643
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16123.808773444604
+getValue() (loglikelihood, optimizable by label likelihood) =-16062.252979310262
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=86 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7834584919246991
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-16053.131615633425
+getValue() (loglikelihood, optimizable by label likelihood) =-15991.059229772964
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=87 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7876247299660529
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15980.426279569405
+getValue() (loglikelihood, optimizable by label likelihood) =-15919.190673278756
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=88 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7874704248534101
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15910.918027869327
+getValue() (loglikelihood, optimizable by label likelihood) =-15849.13800783451
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=89 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7920995782326921
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15839.335279540837
+getValue() (loglikelihood, optimizable by label likelihood) =-15778.413681537531
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=90 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7923053183828824
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15770.971055423484
+getValue() (loglikelihood, optimizable by label likelihood) =-15709.474427334706
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=91 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.795031375372904
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15700.477343011433
+getValue() (loglikelihood, optimizable by label likelihood) =-15639.862806668763
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=92 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.795031375372904
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15633.229335096974
+getValue() (loglikelihood, optimizable by label likelihood) =-15572.008758687658
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=93 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8006892295031376
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15563.796340816829
+getValue() (loglikelihood, optimizable by label likelihood) =-15503.48144249483
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=94 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.7994033535644481
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15497.635407355318
+getValue() (loglikelihood, optimizable by label likelihood) =-15436.684699825426
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=95 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8037753317559921
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15429.238045149988
+getValue() (loglikelihood, optimizable by label likelihood) =-15369.2153132709
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=96 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8025923258923979
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15364.135439988573
+getValue() (loglikelihood, optimizable by label likelihood) =-15303.44902355178
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=97 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8064499537084662
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15296.749956946689
+getValue() (loglikelihood, optimizable by label likelihood) =-15237.012316022523
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=98 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8062442135582759
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15232.678799125744
+getValue() (loglikelihood, optimizable by label likelihood) =-15172.251199407827
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=99 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.808661660323012
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15166.28131433016
+getValue() (loglikelihood, optimizable by label likelihood) =-15106.822440769723
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=100 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8093303158111306
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15103.217551498668
+getValue() (loglikelihood, optimizable by label likelihood) =-15043.04303958426
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=101 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8108733669375578
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-15037.783212221795
+getValue() (loglikelihood, optimizable by label likelihood) =-14978.597737155113
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=102 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8123649830264376
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14975.705980462235
+getValue() (loglikelihood, optimizable by label likelihood) =-14915.77840348335
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=103 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8150396049789116
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14911.208756971122
+getValue() (loglikelihood, optimizable by label likelihood) =-14852.292295853893
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=104 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8153996502417447
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14850.100179772022
+getValue() (loglikelihood, optimizable by label likelihood) =-14790.412976916217
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=105 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8181771422693138
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14786.513190673659
+getValue() (loglikelihood, optimizable by label likelihood) =-14727.862219681047
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=106 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8175084867811954
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14726.357762690357
+getValue() (loglikelihood, optimizable by label likelihood) =-14666.904125763675
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=107 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8207488941466927
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14663.653942605604
+getValue() (loglikelihood, optimizable by label likelihood) =-14605.265570200998
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=108 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8195144532455508
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14604.437696594536
+getValue() (loglikelihood, optimizable by label likelihood) =-14545.21081263015
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=109 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8228062956485959
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14542.590592129854
+getValue() (loglikelihood, optimizable by label likelihood) =-14484.462286969003
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=110 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8232177759489765
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14484.300249481224
+getValue() (loglikelihood, optimizable by label likelihood) =-14425.293558520334
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=111 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8258923979014504
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14423.284751165365
+getValue() (loglikelihood, optimizable by label likelihood) =-14365.414084947159
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=112 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8250180022631417
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14365.90701764877
+getValue() (loglikelihood, optimizable by label likelihood) =-14335.770775713936
+getValue() (loglikelihood, optimizable by label likelihood) =-14306.707655880702
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=113 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8284127147412818
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14305.172864660166
+getValue() (loglikelihood, optimizable by label likelihood) =-14247.617499317344
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=114 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8275897541405205
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14250.76072230117
+getValue() (loglikelihood, optimizable by label likelihood) =-14218.23670856248
+getValue() (loglikelihood, optimizable by label likelihood) =-14190.236434790495
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=115 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8300586359428043
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14187.726717522555
+getValue() (loglikelihood, optimizable by label likelihood) =-14131.13297235126
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=116 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8304186812056373
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14137.616157356475
+getValue() (loglikelihood, optimizable by label likelihood) =-14101.942936176545
+getValue() (loglikelihood, optimizable by label likelihood) =-14075.381124012973
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=117 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8320646024071597
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14070.844853863186
+getValue() (loglikelihood, optimizable by label likelihood) =-14015.588618907155
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=118 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8332990433083016
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-14025.294558260699
+getValue() (loglikelihood, optimizable by label likelihood) =-13986.457616689344
+getValue() (loglikelihood, optimizable by label likelihood) =-13961.341229833997
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=119 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8336590885711347
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13954.304269395861
+getValue() (loglikelihood, optimizable by label likelihood) =-13900.427128268655
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=120 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8360765353358708
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13912.868694493303
+getValue() (loglikelihood, optimizable by label likelihood) =-13871.248093215432
+getValue() (loglikelihood, optimizable by label likelihood) =-13847.429126880157
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=121 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8364880156362514
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13837.857580105047
+getValue() (loglikelihood, optimizable by label likelihood) =-13785.200236745532
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=122 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8372595411994651
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13799.836223983764
+getValue() (loglikelihood, optimizable by label likelihood) =-13755.918017956712
+getValue() (loglikelihood, optimizable by label likelihood) =-13733.220352000944
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=123 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8380310667626787
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13721.322702398276
+getValue() (loglikelihood, optimizable by label likelihood) =-13669.662780484154
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=124 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8396769879642012
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13686.03447994744
+getValue() (loglikelihood, optimizable by label likelihood) =-13640.266003812036
+getValue() (loglikelihood, optimizable by label likelihood) =-13618.533311649087
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=125 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8400370332270343
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13604.610018828582
+getValue() (loglikelihood, optimizable by label likelihood) =-13553.74066957457
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=126 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8421973048040325
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13571.500005064376
+getValue() (loglikelihood, optimizable by label likelihood) =-13524.24505826618
+getValue() (loglikelihood, optimizable by label likelihood) =-13503.350862924819
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=127 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8437403559304598
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13487.711318700802
+getValue() (loglikelihood, optimizable by label likelihood) =-13437.468846566531
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=128 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8442547063059356
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13456.364053039695
+getValue() (loglikelihood, optimizable by label likelihood) =-13407.903640723975
+getValue() (loglikelihood, optimizable by label likelihood) =-13387.74850093488
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=129 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8460034975825532
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13370.675162882928
+getValue() (loglikelihood, optimizable by label likelihood) =-13320.940488540782
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=130 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.846877893220862
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13340.792714670326
+getValue() (loglikelihood, optimizable by label likelihood) =-13291.339978762902
+getValue() (loglikelihood, optimizable by label likelihood) =-13271.845934049235
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=131 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.84883242464767
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13253.583533649718
+getValue() (loglikelihood, optimizable by label likelihood) =-13204.274471907327
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=132 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8495010801357885
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13224.95714800631
+getValue() (loglikelihood, optimizable by label likelihood) =-13174.673460486714
+getValue() (loglikelihood, optimizable by label likelihood) =-13155.778908053515
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=133 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8521757020882625
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13136.534792105409
+getValue() (loglikelihood, optimizable by label likelihood) =-13087.596988505911
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=134 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.852124267050715
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13109.020365866669
+getValue() (loglikelihood, optimizable by label likelihood) =-13058.028647668303
+getValue() (loglikelihood, optimizable by label likelihood) =-13039.684311382343
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=135 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8552103693035696
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-13019.63281729388
+getValue() (loglikelihood, optimizable by label likelihood) =-12971.03203258141
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=136 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8546960189280938
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12993.132253630196
+getValue() (loglikelihood, optimizable by label likelihood) =-12941.527057637682
+getValue() (loglikelihood, optimizable by label likelihood) =-12923.692972207777
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=137 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8577306861434009
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12902.980675193943
+getValue() (loglikelihood, optimizable by label likelihood) =-12854.696917030747
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=138 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.857833556218496
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12877.428420336959
+getValue() (loglikelihood, optimizable by label likelihood) =-12825.283320417457
+getValue() (loglikelihood, optimizable by label likelihood) =-12807.926607077608
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=139 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8599938277954943
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12786.67720922751
+getValue() (loglikelihood, optimizable by label likelihood) =-12738.700478157622
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=140 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8601995679456846
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12762.030718646858
+getValue() (loglikelihood, optimizable by label likelihood) =-12709.40367360897
+getValue() (loglikelihood, optimizable by label likelihood) =-12692.496900286627
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=141 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8628741898981587
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12670.815388600327
+getValue() (loglikelihood, optimizable by label likelihood) =-12623.142654686162
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=142 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8621540993724925
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12647.048406806087
+getValue() (loglikelihood, optimizable by label likelihood) =-12593.985655688608
+getValue() (loglikelihood, optimizable by label likelihood) =-12577.505621897511
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=143 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.864777286287419
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12555.481667725559
+getValue() (loglikelihood, optimizable by label likelihood) =-12508.114734312465
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=144 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8647258512498714
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12532.579480164446
+getValue() (loglikelihood, optimizable by label likelihood) =-12479.118383781888
+getValue() (loglikelihood, optimizable by label likelihood) =-12463.045213516436
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=145 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8675033432774406
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12440.75590536107
+getValue() (loglikelihood, optimizable by label likelihood) =-12393.699897749895
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=146 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8675547783149882
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12418.711965507438
+getValue() (loglikelihood, optimizable by label likelihood) =-12364.883092538184
+getValue() (loglikelihood, optimizable by label likelihood) =-12349.199551282187
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=147 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8698693550046291
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12326.711579631414
+getValue() (loglikelihood, optimizable by label likelihood) =-12279.97387093873
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=148 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8695607447793436
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12305.525097541104
+getValue() (loglikelihood, optimizable by label likelihood) =-12251.353767237892
+getValue() (loglikelihood, optimizable by label likelihood) =-12236.044742975884
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=149 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8722868017693652
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12213.41614808867
+getValue() (loglikelihood, optimizable by label likelihood) =-12167.005591495392
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=150 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8726982820697459
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12193.090355418008
+getValue() (loglikelihood, optimizable by label likelihood) =-12138.597787487251
+getValue() (loglikelihood, optimizable by label likelihood) =-12123.649892551244
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=151 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8746528134965539
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12100.931468182906
+getValue() (loglikelihood, optimizable by label likelihood) =-12054.857845262584
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=152 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8749099886842917
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-12081.47236299047
+getValue() (loglikelihood, optimizable by label likelihood) =-12026.676541712863
+getValue() (loglikelihood, optimizable by label likelihood) =-12012.077804332164
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=153 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8772760004114804
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11989.314231705497
+getValue() (loglikelihood, optimizable by label likelihood) =-11943.587854444795
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=154 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8773788704865755
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11970.729666493899
+getValue() (loglikelihood, optimizable by label likelihood) =-11915.64599550682
+getValue() (loglikelihood, optimizable by label likelihood) =-11901.385618486182
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=155 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8801049274765971
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11878.616388556577
+getValue() (loglikelihood, optimizable by label likelihood) =-11833.24781170579
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=156 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8796420121386689
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11860.915405991573
+getValue() (loglikelihood, optimizable by label likelihood) =-11805.557208530012
+getValue() (loglikelihood, optimizable by label likelihood) =-11791.625378583696
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=157 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8824709392037856
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11768.885547495673
+getValue() (loglikelihood, optimizable by label likelihood) =-11723.885360833672
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=158 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.882059458903405
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11752.077896301511
+getValue() (loglikelihood, optimizable by label likelihood) =-11696.456800411663
+getValue() (loglikelihood, optimizable by label likelihood) =-11682.844536051132
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=159 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8853513013064499
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11660.165348412189
+getValue() (loglikelihood, optimizable by label likelihood) =-11615.5440273608
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=160 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8842197304804033
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11644.261131298586
+getValue() (loglikelihood, optimizable by label likelihood) =-11588.387368706808
+getValue() (loglikelihood, optimizable by label likelihood) =-11575.086397723844
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=161 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.887665877996091
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11552.495804433533
+getValue() (loglikelihood, optimizable by label likelihood) =-11508.263603560385
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=162 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8861228268696636
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11537.50522338081
+getValue() (loglikelihood, optimizable by label likelihood) =-11481.387862992655
+getValue() (loglikelihood, optimizable by label likelihood) =-11468.390522855905
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=163 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.889980454685732
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11445.913614216919
+getValue() (loglikelihood, optimizable by label likelihood) =-11402.08049241975
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=164 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8887974488221376
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11431.84678791215
+getValue() (loglikelihood, optimizable by label likelihood) =-11375.493919403727
+getValue() (loglikelihood, optimizable by label likelihood) =-11362.793075544083
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=165 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8914720707746117
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11340.452445810382
+getValue() (loglikelihood, optimizable by label likelihood) =-11297.028014976273
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=166 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8904433700236601
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11327.319280747068
+getValue() (loglikelihood, optimizable by label likelihood) =-11270.738159742185
+getValue() (loglikelihood, optimizable by label likelihood) =-11258.327137918146
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=167 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8938895175393478
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11236.143193952841
+getValue() (loglikelihood, optimizable by label likelihood) =-11193.136685027637
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=168 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8923464664129205
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11223.95329552547
+getValue() (loglikelihood, optimizable by label likelihood) =-11167.150458975737
+getValue() (loglikelihood, optimizable by label likelihood) =-11155.02298880877
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=169 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8955868737784178
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11133.014212861848
+getValue() (loglikelihood, optimizable by label likelihood) =-11090.434454811288
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=170 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.89532969859068
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11121.776826275061
+getValue() (loglikelihood, optimizable by label likelihood) =-11064.758184558697
+getValue() (loglikelihood, optimizable by label likelihood) =-11052.90835199687
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=171 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8976957103178685
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11031.091526565702
+getValue() (loglikelihood, optimizable by label likelihood) =-10988.94693483907
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=172 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.8979528855056064
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-11020.81549992839
+getValue() (loglikelihood, optimizable by label likelihood) =-10963.586410634816
+getValue() (loglikelihood, optimizable by label likelihood) =-10952.008617605603
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=173 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9003703322703426
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10930.399018758553
+getValue() (loglikelihood, optimizable by label likelihood) =-10888.697590697655
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=174 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9000102870075095
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10921.092782612339
+getValue() (loglikelihood, optimizable by label likelihood) =-10863.658109829674
+getValue() (loglikelihood, optimizable by label likelihood) =-10852.347039722084
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=175 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9027877790350787
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10830.95860403198
+getValue() (loglikelihood, optimizable by label likelihood) =-10789.707919287415
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=176 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9020676885094127
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10822.630162959887
+getValue() (loglikelihood, optimizable by label likelihood) =-10764.994325020822
+getValue() (loglikelihood, optimizable by label likelihood) =-10753.944912926509
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=177 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9053595309124576
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10732.790382194873
+getValue() (loglikelihood, optimizable by label likelihood) =-10691.997606675239
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=178 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9044337002366012
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10725.447315201061
+getValue() (loglikelihood, optimizable by label likelihood) =-10667.61432319134
+getValue() (loglikelihood, optimizable by label likelihood) =-10656.821730056987
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=179 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9079312827898365
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10635.912777245618
+getValue() (loglikelihood, optimizable by label likelihood) =-10595.584669476064
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=180 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9066968418886946
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10629.562244384788
+getValue() (loglikelihood, optimizable by label likelihood) =-10571.535733222809
+getValue() (loglikelihood, optimizable by label likelihood) =-10560.995323238003
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=181 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9096286390289064
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10540.342662418858
+getValue() (loglikelihood, optimizable by label likelihood) =-10500.485581450925
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=182 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9097315091040017
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10534.991415751383
+getValue() (loglikelihood, optimizable by label likelihood) =-10476.774669266395
+getValue() (loglikelihood, optimizable by label likelihood) =-10466.481989945725
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=183 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.911274560230429
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10446.095472594458
+getValue() (loglikelihood, optimizable by label likelihood) =-10406.715386813952
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=184 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9121489558687378
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10441.74987000049
+getValue() (loglikelihood, optimizable by label likelihood) =-10383.345841141807
+getValue() (loglikelihood, optimizable by label likelihood) =-10373.296605666039
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=185 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9128690463944039
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10353.185305234705
+getValue() (loglikelihood, optimizable by label likelihood) =-10314.287801570572
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=186 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9141549223330933
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10349.85132597149
+getValue() (loglikelihood, optimizable by label likelihood) =-10291.262653051957
+getValue() (loglikelihood, optimizable by label likelihood) =-10281.452724516144
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=187 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9148235778212118
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10261.625010905324
+getValue() (loglikelihood, optimizable by label likelihood) =-10223.215304065026
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=188 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9160580187223537
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10259.308272063929
+getValue() (loglikelihood, optimizable by label likelihood) =-10200.537291759701
+getValue() (loglikelihood, optimizable by label likelihood) =-10190.962669044115
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=189 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.917601069848781
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10171.426274337726
+getValue() (loglikelihood, optimizable by label likelihood) =-10133.509215789243
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=190 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9177553749614237
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10170.132047566403
+getValue() (loglikelihood, optimizable by label likelihood) =-10111.180805254062
+getValue() (loglikelihood, optimizable by label likelihood) =-10101.837610286031
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=191 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9191441209752083
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10082.599686902562
+getValue() (loglikelihood, optimizable by label likelihood) =-10045.179773397824
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=192 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9195556012755889
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-10082.332914926672
+getValue() (loglikelihood, optimizable by label likelihood) =-10023.203172826685
+getValue() (loglikelihood, optimizable by label likelihood) =-10014.087639045594
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=193 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9213043925522065
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9995.154811286
+getValue() (loglikelihood, optimizable by label likelihood) =-9958.236192778284
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=194 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9224359633782533
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9995.920123879981
+getValue() (loglikelihood, optimizable by label likelihood) =-9936.613367388356
+getValue() (loglikelihood, optimizable by label likelihood) =-9927.721829259688
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=195 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9231046188663717
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9909.100239088097
+getValue() (loglikelihood, optimizable by label likelihood) =-9872.686725940881
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=196 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9244933648801563
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9910.901968247941
+getValue() (loglikelihood, optimizable by label likelihood) =-9851.419410770715
+getValue() (loglikelihood, optimizable by label likelihood) =-9842.748294223129
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=197 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9257278057812982
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9824.4436419954
+getValue() (loglikelihood, optimizable by label likelihood) =-9788.538711414538
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=198 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9260364160065837
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9827.285836127943
+getValue() (loglikelihood, optimizable by label likelihood) =-9767.62842268265
+getValue() (loglikelihood, optimizable by label likelihood) =-9759.174236363368
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=199 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9273222919452732
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9741.191817115276
+getValue() (loglikelihood, optimizable by label likelihood) =-9705.798618761273
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=200 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9276309021705585
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9745.078254105416
+getValue() (loglikelihood, optimizable by label likelihood) =-9685.246663916496
+getValue() (loglikelihood, optimizable by label likelihood) =-9677.005991177917
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=201 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9290710832218908
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9659.350726996316
+getValue() (loglikelihood, optimizable by label likelihood) =-9624.472087751941
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=202 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9291225182594384
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9664.284926040717
+getValue() (loglikelihood, optimizable by label likelihood) =-9604.27957433112
+getValue() (loglikelihood, optimizable by label likelihood) =-9596.24906587432
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=203 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9304598292356754
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9578.925534797232
+getValue() (loglikelihood, optimizable by label likelihood) =-9544.563962678101
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=204 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.930511264273223
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9584.91076690569
+getValue() (loglikelihood, optimizable by label likelihood) =-9524.731806070191
+getValue() (loglikelihood, optimizable by label likelihood) =-9516.908173181653
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=205 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9314885299866269
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9499.920635006998
+getValue() (loglikelihood, optimizable by label likelihood) =-9466.07832221044
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=206 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9317457051743647
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9506.959932075239
+getValue() (loglikelihood, optimizable by label likelihood) =-9446.607252412083
+getValue() (loglikelihood, optimizable by label likelihood) =-9438.987260737435
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=207 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9332373212632445
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9422.339680061299
+getValue() (loglikelihood, optimizable by label likelihood) =-9389.018505154701
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=208 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9333916263758872
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9430.435842416086
+getValue() (loglikelihood, optimizable by label likelihood) =-9369.909072588469
+getValue() (loglikelihood, optimizable by label likelihood) =-9362.489536393743
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=209 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9343688920892912
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9346.185603149313
+getValue() (loglikelihood, optimizable by label likelihood) =-9313.38713240288
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=210 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.934883242464767
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9355.341205461536
+getValue() (loglikelihood, optimizable by label likelihood) =-9294.639712857723
+getValue() (loglikelihood, optimizable by label likelihood) =-9287.417489733449
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=211 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9361691184034564
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9271.460637458871
+getValue() (loglikelihood, optimizable by label likelihood) =-9239.186125331857
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=212 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9367349038164798
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9281.67803291776
+getValue() (loglikelihood, optimizable by label likelihood) =-9220.800924076775
+getValue() (loglikelihood, optimizable by label likelihood) =-9213.77291004489
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=213 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9378150396049789
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9198.166332073652
+getValue() (loglikelihood, optimizable by label likelihood) =-9166.416720867697
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=214 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9384322600555498
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9209.447654717376
+getValue() (loglikelihood, optimizable by label likelihood) =-9148.393775982513
+getValue() (loglikelihood, optimizable by label likelihood) =-9141.556900970507
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=215 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9395638308815966
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9126.303564709066
+getValue() (loglikelihood, optimizable by label likelihood) =-9095.07948340915
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=216 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9396667009566917
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9138.650729816469
+getValue() (loglikelihood, optimizable by label likelihood) =-9077.418668373413
+getValue() (loglikelihood, optimizable by label likelihood) =-9070.769892024035
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=217 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9407468367451908
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9055.872551460152
+getValue() (loglikelihood, optimizable by label likelihood) =-9025.174313791904
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=218 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9411068820080238
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9069.287253926108
+getValue() (loglikelihood, optimizable by label likelihood) =-9007.875339371505
+getValue() (loglikelihood, optimizable by label likelihood) =-9001.411647161021
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=219 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9420841477214278
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8986.87285373034
+getValue() (loglikelihood, optimizable by label likelihood) =-8956.700455472663
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=220 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9426499331344512
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-9001.356564371908
+getValue() (loglikelihood, optimizable by label likelihood) =-8939.76287094574
+getValue() (loglikelihood, optimizable by label likelihood) =-8933.481270587603
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=221 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9439358090731407
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8919.303382514518
+getValue() (loglikelihood, optimizable by label likelihood) =-8889.656498118606
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=222 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9436786338854027
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8934.857342287261
+getValue() (loglikelihood, optimizable by label likelihood) =-8873.079691885476
+getValue() (loglikelihood, optimizable by label likelihood) =-8866.97721000082
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=223 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9451188149367349
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8853.162400222736
+getValue() (loglikelihood, optimizable by label likelihood) =-8824.040378800724
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=224 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9446558995988067
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8869.787612361857
+getValue() (loglikelihood, optimizable by label likelihood) =-8807.82357842711
+getValue() (loglikelihood, optimizable by label likelihood) =-8801.897257466979
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=225 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9461989507252341
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8788.447520246402
+getValue() (loglikelihood, optimizable by label likelihood) =-8759.849381006068
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=226 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9459417755374961
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8806.1447403854
+getValue() (loglikelihood, optimizable by label likelihood) =-8743.991652753717
+getValue() (loglikelihood, optimizable by label likelihood) =-8738.238548161815
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=227 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9475362617014711
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8725.15570448766
+getValue() (loglikelihood, optimizable by label likelihood) =-8697.08013170084
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=228 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9476391317765662
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8743.925428842966
+getValue() (loglikelihood, optimizable by label likelihood) =-8681.580379604286
+getValue() (loglikelihood, optimizable by label likelihood) =-8675.997557211933
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=229 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9490278777903508
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8663.283259088534
+getValue() (loglikelihood, optimizable by label likelihood) =-8635.728596691824
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=230 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9487192675650653
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8683.125710831784
+getValue() (loglikelihood, optimizable by label likelihood) =-8620.585561244028
+getValue() (loglikelihood, optimizable by label likelihood) =-8615.170094890813
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=231 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9501080135788499
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8602.825828610774
+getValue() (loglikelihood, optimizable by label likelihood) =-8575.790074545523
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=232 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9505194938792305
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8623.74094257785
+getValue() (loglikelihood, optimizable by label likelihood) =-8561.002331057267
+getValue() (loglikelihood, optimizable by label likelihood) =-8555.751300433052
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=233 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9513938895175393
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8543.7783889259
+getValue() (loglikelihood, optimizable by label likelihood) =-8517.25918933015
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=234 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.951548194630182
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8565.765794831645
+getValue() (loglikelihood, optimizable by label likelihood) =-8502.825146029476
+getValue() (loglikelihood, optimizable by label likelihood) =-8497.735634734232
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=235 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9523711552309433
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8486.135239077961
+getValue() (loglikelihood, optimizable by label likelihood) =-8460.129882447596
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=236 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9525254603435861
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8509.19424341989
+getValue() (loglikelihood, optimizable by label likelihood) =-8446.047778385575
+getValue() (loglikelihood, optimizable by label likelihood) =-8441.116872203083
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=237 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9539656413949182
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8429.88999237992
+getValue() (loglikelihood, optimizable by label likelihood) =-8404.395403817773
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=238 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9536570311696327
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8454.019559220573
+getValue() (loglikelihood, optimizable by label likelihood) =-8390.663306645212
+getValue() (loglikelihood, optimizable by label likelihood) =-8385.888092028066
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=239 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9550972122209649
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8375.035566998584
+getValue() (loglikelihood, optimizable by label likelihood) =-8350.048302671321
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=240 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9552000822960601
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8400.234297819105
+getValue() (loglikelihood, optimizable by label likelihood) =-8336.664106349446
+getValue() (loglikelihood, optimizable by label likelihood) =-8332.041669111011
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=241 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9564859582347495
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8321.56417627444
+getValue() (loglikelihood, optimizable by label likelihood) =-8297.080418196761
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=242 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9564859582347495
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8347.830289091122
+getValue() (loglikelihood, optimizable by label likelihood) =-8284.041840702721
+getValue() (loglikelihood, optimizable by label likelihood) =-8279.569264912845
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=243 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9579775743236293
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8269.467319014519
+getValue() (loglikelihood, optimizable by label likelihood) =-8245.482870279795
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=244 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.957874704248534
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8296.798626948525
+getValue() (loglikelihood, optimizable by label likelihood) =-8232.787451366457
+getValue() (loglikelihood, optimizable by label likelihood) =-8228.461818446576
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=245 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9590577101121284
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8218.735769988682
+getValue() (loglikelihood, optimizable by label likelihood) =-8195.246050566027
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=246 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9587490998868429
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8247.129659480099
+getValue() (loglikelihood, optimizable by label likelihood) =-8182.891149634391
+getValue() (loglikelihood, optimizable by label likelihood) =-8178.709537648904
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=247 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9599835407879848
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8169.359570856979
+getValue() (loglikelihood, optimizable by label likelihood) =-8146.359614075627
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=248 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.960446456125913
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8198.812979717823
+getValue() (loglikelihood, optimizable by label likelihood) =-8134.342408218497
+getValue() (loglikelihood, optimizable by label likelihood) =-8130.3018913592405
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=249 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9613722868017693
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8121.328021756237
+getValue() (loglikelihood, optimizable by label likelihood) =-8098.812471600326
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=250 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9613208517642218
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8151.837417265575
+getValue() (loglikelihood, optimizable by label likelihood) =-8087.129953877566
+getValue() (loglikelihood, optimizable by label likelihood) =-8083.2276021398575
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=251 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9625038576278161
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8074.629673780787
+getValue() (loglikelihood, optimizable by label likelihood) =-8052.592783120952
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=252 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9621952474025306
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8106.19103103916
+getValue() (loglikelihood, optimizable by label likelihood) =-8041.241761128555
+getValue() (loglikelihood, optimizable by label likelihood) =-8037.4746401785715
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=253 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9630696430408394
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8029.252322602409
+getValue() (loglikelihood, optimizable by label likelihood) =-8007.687952494099
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=254 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9633268182285774
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8061.861103383127
+getValue() (loglikelihood, optimizable by label likelihood) =-7996.66504729368
+getValue() (loglikelihood, optimizable by label likelihood) =-7993.030218528368
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=255 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.964458389054624
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7985.183003491679
+getValue() (loglikelihood, optimizable by label likelihood) =-7964.084623673403
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=256 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9646641292048144
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-8018.8341358512025
+getValue() (loglikelihood, optimizable by label likelihood) =-7953.386269152017
+getValue() (loglikelihood, optimizable by label likelihood) =-7949.880789955227
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=257 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9655385248431231
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7942.407988019687
+getValue() (loglikelihood, optimizable by label likelihood) =-7921.768678748118
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=258 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9664643555189796
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7977.095846960692
+getValue() (loglikelihood, optimizable by label likelihood) =-7911.391121483582
+getValue() (loglikelihood, optimizable by label likelihood) =-7908.012045683159
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=259 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9668758358193601
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7900.912782740874
+getValue() (loglikelihood, optimizable by label likelihood) =-7880.72523809994
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=260 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9672873161197407
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7936.631172253659
+getValue() (loglikelihood, optimizable by label likelihood) =-7870.66453781026
+getValue() (loglikelihood, optimizable by label likelihood) =-7867.408916343711
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=261 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9675959263450262
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7860.682130175845
+getValue() (loglikelihood, optimizable by label likelihood) =-7840.938662996691
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=262 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9682645818331448
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7897.424267017759
+getValue() (loglikelihood, optimizable by label likelihood) =-7831.190693655719
+getValue() (loglikelihood, optimizable by label likelihood) =-7828.055575451907
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=263 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.968727497171073
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7821.700012428639
+getValue() (loglikelihood, optimizable by label likelihood) =-7802.392560951135
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=264 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9689846723588108
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7859.458512028888
+getValue() (loglikelihood, optimizable by label likelihood) =-7792.953012653515
+getValue() (loglikelihood, optimizable by label likelihood) =-7789.9354457395975
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=265 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9696018928093818
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7783.94965777933
+getValue() (loglikelihood, optimizable by label likelihood) =-7765.069794176257
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=266 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9698590679971196
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7822.716522676161
+getValue() (loglikelihood, optimizable by label likelihood) =-7755.93417583245
+getValue() (loglikelihood, optimizable by label likelihood) =-7753.031208673901
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=267 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9706305935603333
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7747.41355058753
+getValue() (loglikelihood, optimizable by label likelihood) =-7728.952491455077
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=268 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9712992490484518
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7787.180161806085
+getValue() (loglikelihood, optimizable by label likelihood) =-7720.116134391021
+getValue() (loglikelihood, optimizable by label likelihood) =-7717.324817470982
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=269 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9716592943112848
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7712.073444818092
+getValue() (loglikelihood, optimizable by label likelihood) =-7694.022063712924
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=270 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.972379384836951
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7752.830556579054
+getValue() (loglikelihood, optimizable by label likelihood) =-7685.480126237198
+getValue() (loglikelihood, optimizable by label likelihood) =-7682.79751387793
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=271 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9727908651373316
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7677.910381457333
+getValue() (loglikelihood, optimizable by label likelihood) =-7660.259223528523
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=272 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9733052155128074
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7719.648119561447
+getValue() (loglikelihood, optimizable by label likelihood) =-7652.006696513228
+getValue() (loglikelihood, optimizable by label likelihood) =-7649.429848937228
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=273 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9736652607756404
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7644.904710020611
+getValue() (loglikelihood, optimizable by label likelihood) =-7627.644008746967
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=274 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9743339162637589
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7687.61257418525
+getValue() (loglikelihood, optimizable by label likelihood) =-7619.675722247031
+getValue() (loglikelihood, optimizable by label likelihood) =-7617.201707869419
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=275 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9747968316016871
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7613.0361142672555
+getValue() (loglikelihood, optimizable by label likelihood) =-7596.155810267461
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=276 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9746425264890444
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7656.70298459838
+getValue() (loglikelihood, optimizable by label likelihood) =-7588.466441176797
+getValue() (loglikelihood, optimizable by label likelihood) =-7586.092339113591
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=277 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9754654870898056
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7582.283642135395
+getValue() (loglikelihood, optimizable by label likelihood) =-7565.77340397337
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=278 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9758769673901861
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7626.8977898138555
+getValue() (loglikelihood, optimizable by label likelihood) =-7558.357484690531
+getValue() (loglikelihood, optimizable by label likelihood) =-7556.080387460213
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=279 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9762884476905668
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7552.625739801857
+getValue() (loglikelihood, optimizable by label likelihood) =-7536.474986665642
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=280 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9765970579158523
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7598.174841951615
+getValue() (loglikelihood, optimizable by label likelihood) =-7529.326914714164
+getValue() (loglikelihood, optimizable by label likelihood) =-7527.143931103847
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=281 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9772142783664232
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7524.040289663939
+getValue() (loglikelihood, optimizable by label likelihood) =-7508.2382157558895
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=282 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9776771937043514
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7570.51144826482
+getValue() (loglikelihood, optimizable by label likelihood) =-7501.352264281318
+getValue() (loglikelihood, optimizable by label likelihood) =-7499.260522343768
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=283 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9783972842300175
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7496.504651944159
+getValue() (loglikelihood, optimizable by label likelihood) =-7481.04025238652
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=284 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9782944141549224
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7543.884416560959
+getValue() (loglikelihood, optimizable by label likelihood) =-7474.410581433278
+getValue() (loglikelihood, optimizable by label likelihood) =-7472.407231577272
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=285 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9791688097932312
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7469.995709539883
+getValue() (loglikelihood, optimizable by label likelihood) =-7454.857807573843
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=286 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9788087645303981
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7518.2701035695245
+getValue() (loglikelihood, optimizable by label likelihood) =-7448.478476030829
+getValue() (loglikelihood, optimizable by label likelihood) =-7446.5606941665865
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=287 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9798374652813496
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7444.489915682287
+getValue() (loglikelihood, optimizable by label likelihood) =-7429.667190921637
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=288 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.98004320543154
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7493.644465772766
+getValue() (loglikelihood, optimizable by label likelihood) =-7423.532169018052
+getValue() (loglikelihood, optimizable by label likelihood) =-7421.697159719202
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=289 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9804546857319206
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7419.963343936119
+getValue() (loglikelihood, optimizable by label likelihood) =-7405.444361425545
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=290 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9806604258821109
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7469.983112203149
+getValue() (loglikelihood, optimizable by label likelihood) =-7399.547543655513
+getValue() (loglikelihood, optimizable by label likelihood) =-7397.7925433005585
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=291 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9811233412200391
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7396.391740054702
+getValue() (loglikelihood, optimizable by label likelihood) =-7382.1649798814515
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=292 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9812776463326818
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7447.2613587132855
+getValue() (loglikelihood, optimizable by label likelihood) =-7376.500198236241
+getValue() (loglikelihood, optimizable by label likelihood) =-7374.8224780964665
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=293 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.98174056167061
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7373.750575208281
+getValue() (loglikelihood, optimizable by label likelihood) =-7359.804462417165
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=294 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9819977368583479
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7425.454283240058
+getValue() (loglikelihood, optimizable by label likelihood) =-7354.365499809035
+getValue() (loglikelihood, optimizable by label likelihood) =-7352.762369051737
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=295 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9826149573089188
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7352.015100116746
+getValue() (loglikelihood, optimizable by label likelihood) =-7338.338034684738
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=296 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9827692624215616
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7404.536781603801
+getValue() (loglikelihood, optimizable by label likelihood) =-7333.118638450904
+getValue() (loglikelihood, optimizable by label likelihood) =-7331.5874470316585
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=297 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9835407879847752
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7331.1603996374615
+getValue() (loglikelihood, optimizable by label likelihood) =-7317.740786273609
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=298 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9836436580598704
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7384.48362341022
+getValue() (loglikelihood, optimizable by label likelihood) =-7312.734681656085
+getValue() (loglikelihood, optimizable by label likelihood) =-7311.272823076966
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=299 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.984055138360251
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7311.1614473843165
+getValue() (loglikelihood, optimizable by label likelihood) =-7297.987724930829
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=300 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9841580084353462
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7365.269507645682
+getValue() (loglikelihood, optimizable by label likelihood) =-7293.1886284346965
+getValue() (loglikelihood, optimizable by label likelihood) =-7291.793542348754
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=301 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9845180536981792
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7291.993159978767
+getValue() (loglikelihood, optimizable by label likelihood) =-7287.066312638091
+getValue() (loglikelihood, optimizable by label likelihood) =-7279.051306095119
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=302 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9847752288859171
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7346.775355384284
+getValue() (loglikelihood, optimizable by label likelihood) =-7274.476053554174
+getValue() (loglikelihood, optimizable by label likelihood) =-7273.1445370576175
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=303 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9852895792613928
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7273.744144460939
+getValue() (loglikelihood, optimizable by label likelihood) =-7268.635798923768
+getValue() (loglikelihood, optimizable by label likelihood) =-7260.992371807744
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=304 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9853924493364881
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7329.289224738443
+getValue() (loglikelihood, optimizable by label likelihood) =-7256.628866065383
+getValue() (loglikelihood, optimizable by label likelihood) =-7255.35789490473
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=305 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.985752494599321
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7256.344275043837
+getValue() (loglikelihood, optimizable by label likelihood) =-7251.055831866626
+getValue() (loglikelihood, optimizable by label likelihood) =-7243.76458271222
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=306 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9858553646744163
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7312.543121354939
+getValue() (loglikelihood, optimizable by label likelihood) =-7239.602729680822
+getValue() (loglikelihood, optimizable by label likelihood) =-7238.389924645672
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=307 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9861639748997016
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7239.752101949102
+getValue() (loglikelihood, optimizable by label likelihood) =-7234.2870327885175
+getValue() (loglikelihood, optimizable by label likelihood) =-7227.334079047554
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=308 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9862668449747969
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7296.656004872236
+getValue() (loglikelihood, optimizable by label likelihood) =-7223.365166984924
+getValue() (loglikelihood, optimizable by label likelihood) =-7222.207968483601
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=309 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9864725851249871
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7223.935938166256
+getValue() (loglikelihood, optimizable by label likelihood) =-7218.294410979583
+getValue() (loglikelihood, optimizable by label likelihood) =-7211.663497085351
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=310 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9868326303878202
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7281.4623379878
+getValue() (loglikelihood, optimizable by label likelihood) =-7207.87880396122
+getValue() (loglikelihood, optimizable by label likelihood) =-7206.774953291746
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=311 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9871412406131056
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7208.858696087891
+getValue() (loglikelihood, optimizable by label likelihood) =-7203.043383993688
+getValue() (loglikelihood, optimizable by label likelihood) =-7196.721400080233
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=312 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9870383705380105
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7267.031810017015
+getValue() (loglikelihood, optimizable by label likelihood) =-7193.11296461494
+getValue() (loglikelihood, optimizable by label likelihood) =-7192.060113439902
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=313 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.987346980763296
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7194.490909349336
+getValue() (loglikelihood, optimizable by label likelihood) =-7188.501914214422
+getValue() (loglikelihood, optimizable by label likelihood) =-7182.474499947999
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=314 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.987346980763296
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7253.247611341543
+getValue() (loglikelihood, optimizable by label likelihood) =-7179.034451572443
+getValue() (loglikelihood, optimizable by label likelihood) =-7178.0304652658615
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=315 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9876555909885815
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7180.798625514795
+getValue() (loglikelihood, optimizable by label likelihood) =-7174.638524087628
+getValue() (loglikelihood, optimizable by label likelihood) =-7168.893216586821
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=316 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9873984158008435
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7240.1476231311435
+getValue() (loglikelihood, optimizable by label likelihood) =-7165.614150757936
+getValue() (loglikelihood, optimizable by label likelihood) =-7164.656862118592
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=317 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9878098961012242
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7167.754301458122
+getValue() (loglikelihood, optimizable by label likelihood) =-7161.423455969492
+getValue() (loglikelihood, optimizable by label likelihood) =-7155.947302430815
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=318 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9875527209134862
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7227.646572260695
+getValue() (loglikelihood, optimizable by label likelihood) =-7152.822017119141
+getValue() (loglikelihood, optimizable by label likelihood) =-7151.90942257019
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=319 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9882213764016048
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7155.326753456926
+getValue() (loglikelihood, optimizable by label likelihood) =-7148.827778145993
+getValue() (loglikelihood, optimizable by label likelihood) =-7143.609032430884
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=320 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9878098961012242
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7215.761682169682
+getValue() (loglikelihood, optimizable by label likelihood) =-7140.630645808415
+getValue() (loglikelihood, optimizable by label likelihood) =-7139.760744000399
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=321 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9883242464766999
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7143.490281848267
+getValue() (loglikelihood, optimizable by label likelihood) =-7136.823862029776
+getValue() (loglikelihood, optimizable by label likelihood) =-7131.850735237379
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=322 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9880156362514144
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7204.42892861485
+getValue() (loglikelihood, optimizable by label likelihood) =-7129.012630013961
+getValue() (loglikelihood, optimizable by label likelihood) =-7128.183551183894
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=323 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9883242464766999
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7132.216251267515
+getValue() (loglikelihood, optimizable by label likelihood) =-7125.385060923571
+getValue() (loglikelihood, optimizable by label likelihood) =-7120.646576330026
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=324 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9883242464766999
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7193.6524324034035
+getValue() (loglikelihood, optimizable by label likelihood) =-7117.94237877287
+getValue() (loglikelihood, optimizable by label likelihood) =-7117.152276147941
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=325 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9885299866268903
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7121.480765699346
+getValue() (loglikelihood, optimizable by label likelihood) =-7114.485797724417
+getValue() (loglikelihood, optimizable by label likelihood) =-7109.971182386683
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=326 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.988427116551795
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7183.382800544461
+getValue() (loglikelihood, optimizable by label likelihood) =-7107.394808302346
+getValue() (loglikelihood, optimizable by label likelihood) =-7106.641945115536
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=327 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9887871618146281
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7111.257556171513
+getValue() (loglikelihood, optimizable by label likelihood) =-7104.101539502408
+getValue() (loglikelihood, optimizable by label likelihood) =-7099.80060416796
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=328 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9887871618146281
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7173.616068363257
+getValue() (loglikelihood, optimizable by label likelihood) =-7097.346171196815
+getValue() (loglikelihood, optimizable by label likelihood) =-7096.628845657148
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=329 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.989044337002366
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7101.524486864786
+getValue() (loglikelihood, optimizable by label likelihood) =-7094.208681950691
+getValue() (loglikelihood, optimizable by label likelihood) =-7090.111566834437
+CRF finished one iteration of maximizer, i=0
+Evaluator iteration=330 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9890957720399136
+Testing accuracy=NaN
+CRF about to train with 1 iterations
+getValue() (loglikelihood, optimizable by label likelihood) =-7164.31311429125
+getValue() (loglikelihood, optimizable by label likelihood) =-7087.7734846976255
+getValue() (loglikelihood, optimizable by label likelihood) =-7087.090089754613
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -7087.7734846976255 newValue: -7087.090089754613
+CRF finished one iteration of maximizer, i=0
+CRF training has converged, i=0
+Evaluator iteration=331 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.9891472070774612
+Testing accuracy=NaN
+Model option...pos.model.simple
