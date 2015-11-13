@@ -16,17 +16,15 @@ python format_checker.py temp.ner.input test.ner.simple.order1 ner
 python Fscore_ner.py test.ner.simple.order1 ner.test
 
 
-<<Com
 echo "order2"
 java -cp "/home/madhav/Desktop/ass3/mallet-2.0.7/class:/home/madhav/Desktop/ass3/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --include-input false --model-file ../ner.model.simple.order2 temp.ner.input > temp.ner.simple.order2.pred
 paste -d' ' temp.ner.input temp.ner.simple.order2.pred > test.ner.simple.order2
 
 python format_checker.py temp.ner.input test.ner.simple.order2 ner
 python Fscore_ner.py test.ner.simple.order2 ner.test
-Com
 
 echo "HMM"
-java -cp "/home/madhav/Desktop/ass3/mallet-2.0.7/class:/home/madhav/Desktop/ass3/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.HMMSimpleTagger --include-input false --model-file ../ner.model.hmm temp.ner.input > temp.ner.hmm.pred
+java -cp "/home/madhav/Desktop/ass3/mallet-2.0.7/class:/home/madhav/Desktop/ass3/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.HMMSimpleTagger --include-input false --model-file ../ner.model.HMM temp.ner.input > temp.ner.hmm.pred
 paste -d' ' temp.ner.input temp.ner.hmm.pred > test.ner.hmm
 
 python format_checker.py temp.ner.input test.ner.hmm ner
@@ -69,3 +67,12 @@ paste -d' ' temp.ner.input temp.ner.feature.specialChar.numerical.cap.mention.ha
 
 python format_checker.py temp.ner.input test.ner.feature.specialChar.numerical.cap.mention.hashtag ner
 python Fscore_ner.py test.ner.feature.specialChar.numerical.cap.mention.hashtag ner.test
+
+echo "All Features with pos"
+python nerRunpos.py
+
+java -cp "/home/madhav/Desktop/ass3/mallet-2.0.7/class:/home/madhav/Desktop/ass3/mallet-2.0.7/lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --include-input false --model-file ../ner.model.feature.all.pos temp.ner.input.feature > temp.ner.feature.all.pos.pred
+paste -d' ' temp.ner.input temp.ner.feature.all.pos.pred > test.ner.feature.all.pos
+
+python format_checker.py temp.ner.input test.ner.feature.all.pos ner
+python Fscore_ner.py test.ner.feature.all.pos ner.test

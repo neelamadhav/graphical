@@ -4,12 +4,12 @@ stopwords = ["after", "afterwards", "again", "against", "ago", "ah", "ahead", "a
 
 posMap = {}
 i = 0;
-for line in open('temp.input.pos', 'r').readlines():
+for line in open('ner.test.pos', 'r').readlines():
     line = line.strip()
     if line == '':
         continue
     i = i+1
-    line = line.split()
+    line = line.split(' ')
     posMap[i] = line[1]
 
 invalidChars = set(string.punctuation)
@@ -21,7 +21,7 @@ def is_number(s):
         return False
 j = 0
 out = open('temp.ner.input.feature', 'w')
-for line in open('temp.pos.input').readlines():
+for line in open('temp.ner.input').readlines():
     line = line.strip()
     if line == '':
         out.write('\n');

@@ -9,7 +9,7 @@ for line in open('temp.input.pos', 'r').readlines():
     if line == '':
         continue
     i = i+1
-    line = line.split()
+    line = line.split(' ')
     posMap[i] = line[1]
 
 invalidChars = set(string.punctuation)
