@@ -4,7 +4,7 @@ stopwords = ["after", "afterwards", "again", "against", "ago", "ah", "ahead", "a
 
 posMap = {}
 i = 0;
-for line in open('input.pos', 'r').readlines():
+for line in open('temp.input.pos', 'r').readlines():
     line = line.strip()
     if line == '':
         continue
@@ -20,8 +20,8 @@ def is_number(s):
     except ValueError:
         return False
 j = 0
-out = open('ner.input.feature', 'w')
-for line in open('pos.input').readlines():
+out = open('temp.ner.input.feature', 'w')
+for line in open('temp.pos.input').readlines():
     line = line.strip()
     if line == '':
         out.write('\n');
